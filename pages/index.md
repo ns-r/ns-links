@@ -20,6 +20,15 @@ layout: index
 - [Making use of free time (1)](https://www.reddit.com/r/singapore/comments/9lwo39/how_much_free_time_are_u_given_during_ns_and_how/)
 - [Making use of free time (2)](https://www.reddit.com/r/singapore/comments/ds06fe/what_can_i_do_to_make_best_use_of_free_time_in/)
 
+### Experiences
+- [NS experiences](https://www.reddit.com/r/singapore/comments/9nwu7c/nervous_for_ns_anyone_care_to_share_their/)
+
+### CMPB
+These websites are usually under maintenance on weekends.
+- [Ranks and commands](https://www.cmpb.gov.sg/web/portal/cmpb/home/life-in-ns/saf/ranks-and-drill-commands)
+- [Vocations](https://www.cmpb.gov.sg/web/portal/cmpb/home/ns-vocations/#explore-ns-vocations)
+- [Vocations guide (PDF)](https://www.cmpb.gov.sg/web/wcm/connect/cmpb/226de7de-4248-498d-a595-fabee56c4b73/ns-vocations-handbook.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_1QK41482L8MQ70QO51TJLK00Q6-226de7de-4248-498d-a595-fabee56c4b73-mNB41uf)
+
 
 ## Vocations
 - [Prons and cons of vocations](https://www.reddit.com/r/singapore/comments/7nz5vf/ns_vocation_pros_and_cons/)
@@ -37,15 +46,6 @@ layout: index
 ## Medical
 - [List of medical benefits](https://www.reddit.com/r/singapore/comments/9w3uot/full_list_of_ns_medical_benefits/)
 - [Injuries and compensation](https://www.reddit.com/r/singapore/comments/b8j9i0/a_guide_to_ns_injuries_compensation_process/)
-
-## Experiences
-- [NS experiences](https://www.reddit.com/r/singapore/comments/9nwu7c/nervous_for_ns_anyone_care_to_share_their/)
-
-## CMPB
-These websites are usually under maintenance on weekends.
-- [Ranks and commands](https://www.cmpb.gov.sg/web/portal/cmpb/home/life-in-ns/saf/ranks-and-drill-commands)
-- [Vocations](https://www.cmpb.gov.sg/web/portal/cmpb/home/ns-vocations/#explore-ns-vocations)
-- [Vocations guide (PDF)](https://www.cmpb.gov.sg/web/wcm/connect/cmpb/226de7de-4248-498d-a595-fabee56c4b73/ns-vocations-handbook.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_1QK41482L8MQ70QO51TJLK00Q6-226de7de-4248-498d-a595-fabee56c4b73-mNB41uf)
 
 ## Stories
 ### General
