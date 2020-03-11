@@ -23,6 +23,10 @@ layout: index
 ### Experiences
 - [NS experiences](https://www.reddit.com/r/singapore/comments/9nwu7c/nervous_for_ns_anyone_care_to_share_their/)
 
+### Medical
+- [List of medical benefits](https://www.reddit.com/r/singapore/comments/9w3uot/full_list_of_ns_medical_benefits/)
+- [Injuries and compensation](https://www.reddit.com/r/singapore/comments/b8j9i0/a_guide_to_ns_injuries_compensation_process/)
+
 ### CMPB
 These websites are usually under maintenance on weekends.
 - [Ranks and commands](https://www.cmpb.gov.sg/web/portal/cmpb/home/life-in-ns/saf/ranks-and-drill-commands)
@@ -42,10 +46,6 @@ These websites are usually under maintenance on weekends.
 - [TOs in ICT](https://www.reddit.com/r/singapore/comments/ajxswd/what_do_transport_operators_do_during_ict/)
 - ["1 foot in DB"](https://www.reddit.com/r/NationalServiceSG/comments/ebvd4q/is_the_1_foot_on_the_accelerator_1_foot_in_db/)
 
-
-## Medical
-- [List of medical benefits](https://www.reddit.com/r/singapore/comments/9w3uot/full_list_of_ns_medical_benefits/)
-- [Injuries and compensation](https://www.reddit.com/r/singapore/comments/b8j9i0/a_guide_to_ns_injuries_compensation_process/)
 
 ## Stories
 ### General
