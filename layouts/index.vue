@@ -4,6 +4,9 @@
       <div class="wrapper">
         <h1>{{this.$siteConfig.title}}</h1>
         <p>{{this.$siteConfig.desc}}</p>
+        <div class='mobile-only'>
+          <MobileTOCLinks :headings=headings />
+        </div>
         <div class="content">
           <slot name="default"></slot>
         </div>
@@ -13,6 +16,7 @@
       <div class="wrapper">
         <TOC :headings="headings" />
         <UsefulLinks />
+        <PortalLinks />
       </div>
     </aside>
   </main>
@@ -21,11 +25,16 @@
 <script>
 import TOC from "../components/Toc.vue";
 import UsefulLinks from "../components/UsefulLinks.vue";
+import PortalLinks from "../components/PortalLinks.vue";
+
+import MobileTOCLinks from "../components/MobileTOCLinks.vue";
 
 export default {
   components: {
     TOC,
-    UsefulLinks
+    UsefulLinks,
+    PortalLinks,
+    MobileTOCLinks
   },
   props: ["page"],
   data: () => {
@@ -46,11 +55,11 @@ export default {
           content: "#ffffff"
         },
         {
-          name: 'viewport',
-          content: 'width=device-width, initial-scale=1.0'
+          name: "viewport",
+          content: "width=device-width, initial-scale=1.0"
         },
         {
-          charset: 'UTF-8'
+          charset: "UTF-8"
         }
       ]
     };
@@ -78,6 +87,17 @@ main {
   grid-template-columns: 1fr 250px;
   grid-gap: var(--main-padding);
 
+  article {
+    h1 {
+      margin-bottom: 0;
+    }
+    // h2 too small
+    h2 {
+      font-size: 2em;
+      margin-bottom: 0.6em;
+    }
+  }
+
   // some margin above sidebar so it doesn't go above title
   // this is not required in mobile
   aside {
@@ -87,6 +107,11 @@ main {
   @include not-mobile-screen {
     // this padding will cause problems in mobile, so remove it
     padding: var(--main-padding) 15%;
+
+    // hide mobile only TOC and links
+    .mobile-only {
+      display: none;
+    }
   }
 
   // reduce padding on tablet screen
@@ -97,7 +122,9 @@ main {
 
   @include mobile-screen {
     grid-template-columns: 100% 250px;
-    // height: 100vh;
+
+    // DISABLING SIDE DRAWER BECXAUSE NOT WORKING ON MOBILE
+    overflow-x: hidden;
 
     // grid gap also create the white space, so remove it
     grid-gap: 0;

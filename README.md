@@ -5,7 +5,7 @@
 - coming soon
 
 ## Resources
-Most of the resources are from Reddit (r/Singapore and r/NationalServiceSG).
+Most of the resources are from Reddit ([r/Singapore](https://www.reddit.com/r/singapore) and [r/NationalServiceSG](https://reddit.com/r/nationalservicesg)).
 
 ## Built with
 - Saber

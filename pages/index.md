@@ -20,12 +20,32 @@ layout: index
 - [Making use of free time (1)](https://www.reddit.com/r/singapore/comments/9lwo39/how_much_free_time_are_u_given_during_ns_and_how/)
 - [Making use of free time (2)](https://www.reddit.com/r/singapore/comments/ds06fe/what_can_i_do_to_make_best_use_of_free_time_in/)
 
+
+## Vocations
+- [Prons and cons of vocations](https://www.reddit.com/r/singapore/comments/7nz5vf/ns_vocation_pros_and_cons/)
+
+### Infantry
+- [Life of an infanteer](https://www.reddit.com/r/singapore/comments/8v8svd/ns_whats_my_life_is_going_to_be_like_for_the_next/)
+- [Life in a combat vocation](https://www.reddit.com/r/singapore/comments/8h7rz6/what_is_life_like_in_a_combat_vocation/)
+
+### Transport operator
+- [TO](https://www.reddit.com/r/singapore/comments/e9ysdq/ns_transport_operator_vocation/)
+- [TOs in ICT](https://www.reddit.com/r/singapore/comments/ajxswd/what_do_transport_operators_do_during_ict/)
+- ["1 foot in DB"](https://www.reddit.com/r/NationalServiceSG/comments/ebvd4q/is_the_1_foot_on_the_accelerator_1_foot_in_db/)
+
+
 ## Medical
 - [List of medical benefits](https://www.reddit.com/r/singapore/comments/9w3uot/full_list_of_ns_medical_benefits/)
 - [Injuries and compensation](https://www.reddit.com/r/singapore/comments/b8j9i0/a_guide_to_ns_injuries_compensation_process/)
 
 ## Experiences
 - [NS experiences](https://www.reddit.com/r/singapore/comments/9nwu7c/nervous_for_ns_anyone_care_to_share_their/)
+
+## CMPB
+These websites are usually under maintenance on weekends.
+- [Ranks and commands](https://www.cmpb.gov.sg/web/portal/cmpb/home/life-in-ns/saf/ranks-and-drill-commands)
+- [Vocations](https://www.cmpb.gov.sg/web/portal/cmpb/home/ns-vocations/#explore-ns-vocations)
+- [Vocations guide (PDF)](https://www.cmpb.gov.sg/web/wcm/connect/cmpb/226de7de-4248-498d-a595-fabee56c4b73/ns-vocations-handbook.pdf?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_1QK41482L8MQ70QO51TJLK00Q6-226de7de-4248-498d-a595-fabee56c4b73-mNB41uf)
 
 ## Stories
 ### General
@@ -46,6 +66,7 @@ layout: index
 ### Scary
 - [Tekong ghost stories](https://www.reddit.com/r/singapore/comments/c9q902/any_bmttekong_ghost_stories_to_share/)
 - [Scary stories](https://www.reddit.com/r/singapore/comments/5iajz7/share_your_scary_ns_storiesexperiences/)
+- [Guard duty](https://www.reddit.com/r/singapore/comments/akxnou/ns_did_you_experience_anything_supernatural/)
 - [Paranormal activity (1)](https://www.reddit.com/r/singapore/comments/ar8cri/share_your_creepyparanormal_ns_stories_here/)
 - [Paranormal activity (2)](https://www.reddit.com/r/singapore/comments/cyo2gi/nsfsns_men_what_are_some_paranormal_experiences/)
 - [Paranormal activity (3)](https://www.reddit.com/r/singapore/comments/9t7nne/recent_supernatural_stories_from_ns/)
@@ -63,6 +84,12 @@ layout: index
 - [Worst punishments (BMT)](https://www.reddit.com/r/singapore/comments/7fswkq/worst_punishment_during_bmt/)
 - [That guy in your bunk](https://www.reddit.com/r/singapore/comments/7hf5q2/nsfsnsmen_tell_us_about_that_guy_in_your_bunkunit/)
 
+## Intersting discussion
+Just some content to binge read.
+
+- [Is NS a waste of time?](https://www.reddit.com/r/NationalServiceSG/comments/f68l6y/national_service_is_a_waste_of_time/)
+- [NS culuture is ridiculous](https://www.reddit.com/r/singapore/comments/8w0q09/ns_culture_is_ridiculous/)
+
 ## After NS
 - [IPPT and ICT](https://www.reddit.com/r/singapore/comments/edj9vf/question_about_ippts_and_ict_after_ns/)
 
@@ -75,5 +102,5 @@ export default {
 }
 </script>
 
-<Contributors />
-<!-- usernames=["SteamedChickenRice", "realsingapore", "jthongling", "okedokeloke", "Kiriketsuki", "HunterF22", "91sun"] -->
+
+<Contributors v-bind:usernames="['SteamedChickenRice','realsingapore', 'realsingapore', 'jthongling', 'okedokeloke', 'Kiriketsuki', 'HunterF22', '91sun']" />

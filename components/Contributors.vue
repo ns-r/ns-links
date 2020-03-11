@@ -1,6 +1,14 @@
 <template>
   <div>
     <h2>Contributors</h2>
-    <p>Here is a list of conts.</p>
+    <ul>
+      <li v-for='user in usernames' v-bind:key='user'>u/{{user}}</li>
+    </ul>
   </div>
 </template>
+
+<script>
+export default {
+  props: ['usernames']
+}
+</script>

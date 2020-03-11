@@ -1,10 +1,9 @@
 <template>
   <div class="sidebar-item">
-    <h2>Useful links</h2>
+    <h2>Portal links</h2>
     <div class='list'>
-      <a class="red" href="https://reddit.com/r/nationalservicesg">NS subreddit</a>
-      <a class="red" href="https://reddit.com/r/singapore">SG subreddit</a>
-      <a class="black" href="https://github.com/themindstorm/ns-links">GitHub</a>
+      <a class="blue" href="https://www.ns.sg/nsp/portal/site/mindef-nsf">NS Portal</a>
+      <a class="red" href="https://safhealth.gov.sg/">eHealth</a>
       <!-- <hr />
       <a class="black" href="https://github.com/themindstorm/ns-links">GitHub</a> -->
     </div>
