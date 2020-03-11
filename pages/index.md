@@ -36,6 +36,7 @@ These websites are usually under maintenance on weekends.
 
 ## Vocations
 - [Prons and cons of vocations](https://www.reddit.com/r/singapore/comments/7nz5vf/ns_vocation_pros_and_cons/)
+- [What is mono-intake](https://www.reddit.com/r/singapore/comments/9ncd35/how_do_i_know_if_i_am_in_a_monointake/)
 
 ### Infantry
 - [Life of an infanteer](https://www.reddit.com/r/singapore/comments/8v8svd/ns_whats_my_life_is_going_to_be_like_for_the_next/)
@@ -45,6 +46,9 @@ These websites are usually under maintenance on weekends.
 - [TO](https://www.reddit.com/r/singapore/comments/e9ysdq/ns_transport_operator_vocation/)
 - [TOs in ICT](https://www.reddit.com/r/singapore/comments/ajxswd/what_do_transport_operators_do_during_ict/)
 - ["1 foot in DB"](https://www.reddit.com/r/NationalServiceSG/comments/ebvd4q/is_the_1_foot_on_the_accelerator_1_foot_in_db/)
+
+### Commando
+- [Training](https://www.quora.com/What-SSG-commandos-training-include)
 
 
 ## Stories
