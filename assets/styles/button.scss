@@ -26,20 +26,26 @@
       transform: translateY(-1px);
   }
 
+
+
   &.red {
-    border: 1px solid red;
-    color: red;
+    border: 1px solid rgb(233, 66, 52);
+    color: rgb(233, 66, 52);
+    background-color: rgba(233, 66, 52, 0.2);
   }
   &.blue {
-    border: 1px solid blue;
-    color: blue;
+    border: 1px solid rgb(66, 133, 243);
+    color: rgb(66, 133, 243);
+    background-color: rgb(66, 133, 243, 0.2);
   }
   &.green {
-    border: 1px solid green;
-    color: green;
+    border: 1px solid rgb(85, 168, 84);
+    color: rgb(85, 168, 84);
+    background-color: rgba(85, 168, 84, 0.2);
   }
   &.black {
-    border: 1px solid #222;
-    color: #222;
+    border: 1px solid rgb(34, 34, 34);
+    color: rgb(34, 34, 34);
+    background-color: rgba(34, 34, 34, 0.2);
   }
 }

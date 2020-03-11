@@ -1,8 +1,15 @@
+
+
 // asside
 // aside {
   .sidebar-item {
     padding: var(--extra-padding);
     border-radius: var(--border-radius);
+
+    // less padding on mobile
+    @include mobile-screen {
+      padding: var(--main-padding);
+    }
 
     h2 {
       margin: unset;

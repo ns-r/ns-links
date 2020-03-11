@@ -2,8 +2,8 @@
   <div class="sidebar-item">
     <h2>Useful links</h2>
     <div class='list'>
-      <a class="red" href="https://reddit.com/r/nationalservicesg">NS subreddit</a>
-      <a class="red" href="https://reddit.com/r/singapore">SG subreddit</a>
+      <a class="red" href="https://reddit.com/r/nationalservicesg">NS reddit</a>
+      <a class="red" href="https://reddit.com/r/singapore">SG reddit</a>
       <a class="black" href="https://github.com/themindstorm/ns-links">GitHub</a>
       <!-- <hr />
       <a class="black" href="https://github.com/themindstorm/ns-links">GitHub</a> -->
