@@ -8,6 +8,7 @@ layout: index
 - [Tips and tricks](https://www.reddit.com/r/NationalServiceSG/comments/eik1iy/tips_and_tricks_for_those_enlisting_to_saf/)
 - [Important items to bring](https://www.reddit.com/r/singapore/comments/8a8isp/important_items_to_bring_for_bmt/)
 - [Hacks](https://www.reddit.com/r/singapore/comments/abv9zl/hacks_for_bmt_during_ns_tekong/)
+- [Advice](https://www.quora.com/Do-you-have-any-advice-for-people-who-are-going-to-National-Service-in-Singapore)
 - [How not to be "that guy"](https://www.reddit.com/r/singapore/comments/bfbmt3/how_not_to_be_that_guy_in_bmtbptbrt/)
 - [SAR 21 IA drills](https://www.reddit.com/r/NationalServiceSG/comments/dqj69p/can_someone_please_explain_the_stoppages_and_ia/)
 - [OCS determining factors](https://www.reddit.com/r/singapore/comments/9ud8hk/determining_factors_to_get_into_ocs/) 
@@ -23,16 +24,40 @@ layout: index
 - [List of medical benefits](https://www.reddit.com/r/singapore/comments/9w3uot/full_list_of_ns_medical_benefits/)
 - [Injuries and compensation](https://www.reddit.com/r/singapore/comments/b8j9i0/a_guide_to_ns_injuries_compensation_process/)
 
+## Experiences
+- [NS experiences](https://www.reddit.com/r/singapore/comments/9nwu7c/nervous_for_ns_anyone_care_to_share_their/)
+
 ## Stories
 ### General
+- [Inspirational](https://www.reddit.com/r/singapore/comments/9t5ste/what_are_some_of_your_inspirationalinteresting/)
+- [Clerk stories](https://www.reddit.com/r/singapore/comments/cj345e/interesting_nsf_clerk_stories/)
+- [Closest brush with death](https://www.reddit.com/r/singapore/comments/8jbfxi/guys_who_finished_serving_ns_what_was_your/)
 - [NS stories (1)](https://www.reddit.com/r/singapore/comments/dwaw4v/ns_stories/)
 - [NS stories (2)](https://www.reddit.com/r/singapore/comments/dsb66t/ns_stories/)
+- [NS stories (3)](https://www.reddit.com/r/singapore/comments/8itqkh/any_ns_stories_to_share_all_branches_of_service/)
+- [NS stories (4)](https://www.reddit.com/r/singapore/comments/9fzajt/anyone_has_any_interestingshitty_ns_stories_they/)
+- [NS stories (5)](https://www.reddit.com/r/singapore/comments/53n7gg/ns_stories/)
+- [NS stories (6)](https://www.reddit.com/r/singapore/comments/5n9r43/ns_stories_time/)
+- [NS stories (7)](https://www.reddit.com/r/singapore/comments/5z92a7/share_some_of_your_ns_stories/)
+- [NS stories (8)](https://www.reddit.com/r/singapore/comments/5cbx7l/more_ns_stories/)
+- [NS stories (9)](https://www.reddit.com/r/singapore/comments/501ykr/excurrent_ns_men_of_rsingapore_what_are_some_of/)
+- [NS stories (10)](https://www.reddit.com/r/singapore/comments/9bsl3w/just_for_fun_and_nostalgia_what_are_some_of_your/)
 
-### Ghost/paranormal
+### Scary
 - [Tekong ghost stories](https://www.reddit.com/r/singapore/comments/c9q902/any_bmttekong_ghost_stories_to_share/)
+- [Scary stories](https://www.reddit.com/r/singapore/comments/5iajz7/share_your_scary_ns_storiesexperiences/)
+- [Paranormal activity (1)](https://www.reddit.com/r/singapore/comments/ar8cri/share_your_creepyparanormal_ns_stories_here/)
+- [Paranormal activity (2)](https://www.reddit.com/r/singapore/comments/cyo2gi/nsfsns_men_what_are_some_paranormal_experiences/)
+- [Paranormal activity (3)](https://www.reddit.com/r/singapore/comments/9t7nne/recent_supernatural_stories_from_ns/)
+- [Ghost stories (1)](https://www.reddit.com/r/singapore/comments/54pxf7/scariest_ns_ghost_stories/)
+- [Ghost stories (2)](https://www.reddit.com/r/singapore/comments/86syoy/any_ghost_stories_fron_your_ns_days/)
+- [Ghost stories (3)](https://www.reddit.com/r/singapore/comments/86z0av/anymore_ghost_stories/)
 
 ### Blur guy
 - [Blur guy's story](https://www.reddit.com/r/singapore/comments/9o3vb4/in_bmt_every_section_had_a_blur_guy_i_was_the_one/)
+
+### Fictional
+- [Clerk horror story](https://www.reddit.com/r/nosleep/comments/89l49t/i_was_a_clerk_in_the_singapore_army_something/)
 
 ## Fun/random
 - [Worst punishments (BMT)](https://www.reddit.com/r/singapore/comments/7fswkq/worst_punishment_during_bmt/)
@@ -51,4 +76,4 @@ export default {
 </script>
 
 <Contributors />
-<!-- usernames=["SteamedChickenRice", "realsingapore", "jthongling", "okedokeloke", "Kiriketsuki", "HunterF22"] -->
+<!-- usernames=["SteamedChickenRice", "realsingapore", "jthongling", "okedokeloke", "Kiriketsuki", "HunterF22", "91sun"] -->

@@ -1,15 +1,19 @@
 <template>
   <main>
     <article>
-      <h1>{{this.$siteConfig.title}}</h1>
-      <p>{{this.$siteConfig.desc}}</p>
-      <div class="content">
-        <slot name="default"></slot>
+      <div class="wrapper">
+        <h1>{{this.$siteConfig.title}}</h1>
+        <p>{{this.$siteConfig.desc}}</p>
+        <div class="content">
+          <slot name="default"></slot>
+        </div>
       </div>
     </article>
     <aside>
-      <TOC :headings="headings" />
-      <UsefulLinks />
+      <div class="wrapper">
+        <TOC :headings="headings" />
+        <UsefulLinks />
+      </div>
     </aside>
   </main>
 </template>
@@ -36,47 +40,75 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../assets/styles/normalize.css";
 @import "../assets/styles/main.scss";
+@import "../assets/styles/normalize.css";
 @import "../assets/styles/font.scss";
 @import "../assets/styles/link-section.scss";
 
 // TODO: set this to globally be in every file
 @import "../assets/styles/variables.scss";
 
-// asside
-@import "../assets/styles/toc.scss";
+// aside/sidebars
+@import "../assets/styles/sidebars.scss";
 
 main {
-  padding: 1em 15%;
-
   display: grid;
   grid-template-columns: 1fr 250px;
-  grid-gap: 1em;
+  grid-gap: var(--main-padding);
 
-  article {
-    // normalize.css creates too much bottom margin
-    h1 {
-      margin-bottom: unset;
-    }
+  // some margin above sidebar so it doesn't go above title
+  // this is not required in mobile
+  aside {
+    margin-top: calc(1.7 * var(--extra-padding));
   }
 
-  aside {
-    padding-top: 2em;
+  @include not-mobile-screen {
+    // this padding will cause problems in mobile, so remove it
+    padding: var(--main-padding) 15%;
+  }
 
-    & > div {
-      margin-bottom: 1em;
-    }
+  // reduce padding on tablet screen
+  @include tablet-screen {
+    // this padding will cause problems in mobile, so remove it
+    padding: var(--main-padding) 5%;
   }
 
   @include mobile-screen {
-    // background: red;
     grid-template-columns: 100% 250px;
+    // height: 100vh;
 
+    // grid gap also create the white space, so remove it
+    grid-gap: 0;
+
+    // resetting padding padding so when scrolling through article, white spaces are not seen
+    padding: 0;
+
+    // swipe (hor scroll) snapping
+    scroll-snap-type: x mandatory;
+
+    article {
+      // this is a scroll snap area
+      scroll-snap-align: start;
+
+      // re add the padding here
+      padding: var(--main-padding);
+    }
+
+    // also add some padding to the sidebar so it doesn't touch the edges
     aside {
-      margin-left: 100px;
-      // max-height: 300px;
-      // overflow-y: scroll;
+      padding: var(--main-padding);
+
+      // this is a scroll snap area
+      scroll-snap-align: start;
+
+      // prevent whitespace above side drawer
+      margin-top: 0;
+
+      // make it stick so that when you scroll down on mobile, the sidebar is not hidden
+      .wrapper {
+        position: sticky;
+        top: calc(1.7 * var(--extra-padding));
+      }
     }
   }
 }

@@ -7,15 +7,20 @@ aside {
     h2 {
       margin: unset;
       font-size: 1.3em;
+      margin-bottom: var(--dense-padding);
     }
     ul {
       font-size: 0.9em;
       list-style: none;
       padding-left: unset;
-
+      
+      // fix?
+      // margin above and below, maybe from normalize?
+      margin-top: 0;
       margin-bottom: 0;
-      padding-bottom: 0;
     }
+
+    margin-bottom: var(--main-padding);
   }
 
 }

@@ -1,0 +1,37 @@
+@mixin button {
+  // reset if it's <a> tag
+  a {color: unset; text-decoration: unset;}
+  color: unset; text-decoration: unset;
+
+  display: inline-block;
+
+  // default colot black
+  border: 1px solid black;
+
+
+  // some text style for better readability
+  letter-spacing: 1px;
+
+  // padding and border radius
+  padding: var(--dense-padding) calc(2.3* var(--dense-padding));
+  border-radius: var(--border-radius);
+
+  // transition for hover and stuff
+  transition: 0.2s;
+  &:hover {
+    border: 1px solid;
+    font-weight: 700;
+
+    // make button come up a little
+      transform: translateY(-1px);
+  }
+
+  &.red {
+    border: 1px solid red;
+    color: red;
+  }
+  &.black {
+    border: 1px solid #222;
+    color: #222;
+  }
+}
