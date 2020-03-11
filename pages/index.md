@@ -88,6 +88,10 @@ These websites are usually under maintenance on weekends.
 - [Worst punishments (BMT)](https://www.reddit.com/r/singapore/comments/7fswkq/worst_punishment_during_bmt/)
 - [That guy in your bunk](https://www.reddit.com/r/singapore/comments/7hf5q2/nsfsnsmen_tell_us_about_that_guy_in_your_bunkunit/)
 
+### Meme pages
+- [memedefsg](https://www.instagram.com/memedefsg/?hl=en)
+- [mengonewildmagazine](https://www.instagram.com/mengonewildmagazine/?hl=en)
+
 ## Intersting discussion
 Just some content to binge read.
 
