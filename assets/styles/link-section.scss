@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 .content > ul {
   list-style: none;
   margin-left: 0;
@@ -11,17 +13,38 @@
     // color: white;
     
     border: 1px solid black;
+
+    // some text style for better readability
+    letter-spacing: 1px;
     
 
+    // inline button group style
     margin-right: var(--dense-padding);
     margin-bottom: var(--dense-padding);
 
     padding: var(--dense-padding) calc(2.3* var(--dense-padding));
     border-radius: var(--border-radius);
 
-  }
 
-  li + li {
-    // margin-left: 15px;
+    transition: 0.2s;
+    &:hover {
+      // highlight on hover
+      border: 1px solid blue;
+      color: blue;
+      font-weight: 700;
+
+      // make button come up a little
+      transform: translateY(-1px);
+      
+      // desktop only
+      @include not-mobile-screen {
+        // increase border thickness
+        border: 2px solid blue;
+
+        // increase side padding
+        padding: var(--dense-padding) calc(3* var(--dense-padding));
+      }
+    }
+
   }
 }

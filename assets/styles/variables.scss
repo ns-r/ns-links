@@ -5,6 +5,11 @@
     @content
   }
 }
+@mixin not-mobile-screen {
+  @media screen and (min-width: 750px) {
+    @content
+  }
+}
 
 // variables
 :root {

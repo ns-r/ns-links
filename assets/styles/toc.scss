@@ -1,7 +1,6 @@
 // asside
 aside {
-  .toc {
-    background-color: #eee;
+  .sidebar-item {
     padding: var(--extra-padding);
     border-radius: var(--border-radius);
 
@@ -13,6 +12,10 @@ aside {
       font-size: 0.9em;
       list-style: none;
       padding-left: unset;
+
+      margin-bottom: 0;
+      padding-bottom: 0;
     }
   }
+
 }

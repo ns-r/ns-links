@@ -8,18 +8,21 @@
       </div>
     </article>
     <aside>
-      <div class="toc">
-        <h2>Contents</h2>
-        <ul>
-          <li v-for="h in headings" v-bind:key="h.slug">{{h.text}}</li>
-        </ul>
-      </div>
+      <TOC :headings="headings" />
+      <UsefulLinks />
     </aside>
   </main>
 </template>
 
 <script>
+import TOC from "../components/Toc.vue";
+import UsefulLinks from "../components/UsefulLinks.vue";
+
 export default {
+  components: {
+    TOC,
+    UsefulLinks
+  },
   props: ["page"],
   data: () => {
     return {
@@ -58,23 +61,23 @@ main {
     }
   }
 
-  aside { 
-    .toc {
-      // make it come lower
-      // it shouldn't go above the main page title
-      margin-top: 2em;
+  aside {
+    padding-top: 2em;
+
+    & > div {
+      margin-bottom: 1em;
     }
   }
 
   @include mobile-screen {
-      // background: red;
-      grid-template-columns: 100% 250px;
-      
-      aside {
-        margin-left: 100px;
-        max-height: 300px;
-        overflow-y: scroll;
-      }
+    // background: red;
+    grid-template-columns: 100% 250px;
+
+    aside {
+      margin-left: 100px;
+      // max-height: 300px;
+      // overflow-y: scroll;
+    }
   }
 }
 </style>
