@@ -1,0 +1,15 @@
+// mobile breadkpoint
+
+@mixin mobile-screen {
+  @media screen and (max-width: 700px) {
+    @content
+  }
+}
+
+// variables
+:root {
+  --main-padding: 1em;
+  --dense-padding: 0.5em;
+
+  --border-radius: 0.25em;
+}

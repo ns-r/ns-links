@@ -1,0 +1,7 @@
+siteConfig:
+  title: NS Links
+  desc: A list of links to help people serving National Service in Singapore.
+
+permalinks:
+  # post: /posts/:slug
+  page: /:slug
