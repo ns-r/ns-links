@@ -7,8 +7,12 @@
     a {color: unset; text-decoration: unset; }
 
     display: inline-block;
-    background-color: black;
-    color: white;
+    // background-color: black;
+    // color: white;
+    
+    border: 1px solid black;
+    
+
     margin-right: var(--dense-padding);
     margin-bottom: var(--dense-padding);
 

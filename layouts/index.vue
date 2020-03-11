@@ -41,28 +41,40 @@ export default {
 // TODO: set this to globally be in every file
 @import "../assets/styles/variables.scss";
 
+// asside
+@import "../assets/styles/toc.scss";
+
 main {
   padding: 1em 15%;
 
   display: grid;
   grid-template-columns: 1fr 250px;
+  grid-gap: 1em;
 
-  aside {
+  article {
+    // normalize.css creates too much bottom margin
+    h1 {
+      margin-bottom: unset;
+    }
+  }
+
+  aside { 
     .toc {
-      background-color: #ddd;
-      padding: var(--main-padding);
-
-      h2 {
-        margin: unset;
-      }
+      // make it come lower
+      // it shouldn't go above the main page title
+      margin-top: 2em;
     }
   }
 
   @include mobile-screen {
-    aside {
-      max-height: 300px;
-      overflow-y: scroll;
-    }
+      // background: red;
+      grid-template-columns: 100% 250px;
+      
+      aside {
+        margin-left: 100px;
+        max-height: 300px;
+        overflow-y: scroll;
+      }
   }
 }
 </style>
