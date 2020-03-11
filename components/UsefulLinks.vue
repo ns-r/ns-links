@@ -4,7 +4,7 @@
     <div>
       <a class="red" href="https://reddit.com/r/nationalservicesg">NS Reddit</a>
       <a class="red" href="https://reddit.com/r/singapore">SG Reddit</a>
-      <a class="black" href="https://reddit.com/r/nationalservicesg">GitHub</a>
+      <a class="black" href="https://github.com/themindstorm/ns-links">GitHub</a>
     </div>
   </div>
 </template>

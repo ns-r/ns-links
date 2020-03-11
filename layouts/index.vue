@@ -33,6 +33,28 @@ export default {
       headings: "test"
     };
   },
+  head() {
+    return {
+      title: `${this.$siteConfig.title}`,
+      meta: [
+        {
+          name: "description",
+          content: `${this.$siteConfig.desc}`
+        },
+        {
+          name: "theme-color",
+          content: "#ffffff"
+        },
+        {
+          name: 'viewport',
+          content: 'width=device-width, initial-scale=1.0'
+        },
+        {
+          charset: 'UTF-8'
+        }
+      ]
+    };
+  },
   mounted() {
     this.headings = this.page.markdownHeadings;
   }
