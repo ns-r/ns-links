@@ -4,4 +4,8 @@ siteConfig:
 
 permalinks:
   # post: /posts/:slug
+  post: /:slug
   page: /:slug
+
+plugins:
+  - resolve: saber-plugin-query-posts

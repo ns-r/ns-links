@@ -4,17 +4,21 @@
       <div class="wrapper">
         <h1>{{this.$siteConfig.title}}</h1>
         <p>{{this.$siteConfig.desc}}</p>
-        <div class='mobile-only'>
-          <MobileTOCLinks :headings=headings />
+        <div class="mobile-only">
+          <TOC :headings="page.markdownHeadings" :initiallyExpanded="false" />
         </div>
         <div class="content">
           <slot name="default"></slot>
+        </div>
+        <div class="mobile-only">
+          <UsefulLinks />
+          <PortalLinks />
         </div>
       </div>
     </article>
     <aside>
       <div class="wrapper">
-        <TOC :headings="headings" />
+        <TOC :headings="page.markdownHeadings" :initiallyExpanded="true" />
         <UsefulLinks />
         <PortalLinks />
       </div>
@@ -37,11 +41,6 @@ export default {
     MobileTOCLinks
   },
   props: ["page"],
-  data: () => {
-    return {
-      headings: "test"
-    };
-  },
   head() {
     return {
       title: `${this.$siteConfig.title}`,
@@ -63,9 +62,6 @@ export default {
         }
       ]
     };
-  },
-  mounted() {
-    this.headings = this.page.markdownHeadings;
   }
 };
 </script>

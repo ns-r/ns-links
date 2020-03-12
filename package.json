@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "saber": "^0.11.5",
+    "saber-plugin-query-posts": "^0.4.5",
     "sass": "^1.26.2",
     "sass-loader": "^8.0.2"
   }

@@ -111,4 +111,4 @@ export default {
 </script>
 
 
-<Contributors v-bind:usernames="['SteamedChickenRice','realsingapore', 'realsingapore', 'jthongling', 'okedokeloke', 'Kiriketsuki', 'HunterF22', '91sun']" />
+<Contributors v-bind:usernames="['SteamedChickenRice','realsingapore', 'jthongling', 'okedokeloke', 'Kiriketsuki', 'HunterF22', '91sun']" />
