@@ -37,7 +37,7 @@ The fieldcamp is the longest, and worst event in BMT. It is a high-key event, so
 - Go back to coyline, clean up eqipment
 
 <script>
-import Alert from '../../components/Alert.vue'
+import Alert from '../../../components/Alert.vue'
 export default {
   components: {
     Alert
