@@ -1,6 +1,6 @@
 <template>
-  <div class="sidebar-item">
-    <h2 @click="toggleExpand()">
+  <div @click="toggleExpand()" class="sidebar-item">
+    <h2>
       <span>Contents</span>
       <span class="chevron">v</span>
     </h2>
