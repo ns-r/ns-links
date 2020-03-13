@@ -3,9 +3,9 @@ title: Fieldcamp
 layout: page
 ---
 
-<Alert type='warning'>
+<div class='alert warning'>
 This page is not complete. You can help by expanding it, similar to how you have expanded the army.
-</Alert>
+</div>
 
 The fieldcamp is the longest, and worst event in BMT. It is a high-key event, so it's required for POP.
 
@@ -35,12 +35,3 @@ The fieldcamp is the longest, and worst event in BMT. It is a high-key event, so
 ### Day 5
 - SIT test
 - Go back to coyline, clean up eqipment
-
-<script>
-import Alert from '../../../components/Alert.vue'
-export default {
-  components: {
-    Alert
-  }
-}
-</script>

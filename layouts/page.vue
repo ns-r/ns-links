@@ -9,10 +9,10 @@
       <div class="content-wrapper">
         <slot name="default"></slot>
       </div>
-      <div class='edit-on-gh'>
-        <a :href="'https://github.com/themindstorm/ns-links/blob/master/pages/_posts' + this.$route.fullPath + '.md'">
-          Edit this page on GitHub
-        </a>
+      <div class="edit-on-gh">
+        <a
+          :href="'https://github.com/themindstorm/ns-links/blob/master/pages/_posts' + this.$route.fullPath + '.md'"
+        >Edit this page on GitHub</a>
       </div>
       <div class="mobile-only">
         <UsefulLinks />
@@ -28,12 +28,12 @@
 </template>
 
 <script>
-import BackButton from "../components/BackButton.vue"
-import TOC from "../components/Toc.vue"
-import UsefulLinks from "../components/UsefulLinks.vue"
+import BackButton from "../components/BackButton.vue";
+import TOC from "../components/Toc.vue";
+import UsefulLinks from "../components/UsefulLinks.vue";
 export default {
   components: { BackButton, TOC, UsefulLinks },
-  props: ["page"],
+  props: ["page"]
 };
 </script>
 
@@ -49,6 +49,15 @@ article {
   h1 {
     margin-top: 0.4em;
     margin-bottom: 0.3em;
+  }
+
+  .alert {
+    padding: var(--main-padding);
+    border-radius: var(--border-radius);
+
+    &.warning {
+      background-color: rgba(255, 166, 0, 0.445);
+    }
   }
 
   // need some space between edit on GH button and footer links (mobile)
