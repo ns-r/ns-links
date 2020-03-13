@@ -14,6 +14,7 @@ layout: index
 - [OCS determining factors](https://www.reddit.com/r/singapore/comments/9ud8hk/determining_factors_to_get_into_ocs/) 
 - [Dealing with SOL](https://www.reddit.com/r/singapore/comments/8krall/how_to_deal_with_sol_in_ns/)
 - [Fieldcamp](https://www.reddit.com/r/singapore/comments/6uesq4/fieldcamp_in_ns/)
+- [BIC](https://www.reddit.com/r/NationalServiceSG/comments/drycrg/questions_about_bic/)
 
 ## General
 ### Free time
@@ -50,6 +51,15 @@ These websites are usually under maintenance on weekends.
 ### Commando
 - [Training](https://www.quora.com/What-SSG-commandos-training-include)
 
+
+### Past posting orders
+- [01/20](https://www.reddit.com/r/NationalServiceSG/comments/fhdok9/posting_012020/)
+- [04/19](https://www.reddit.com/r/singapore/comments/e9w56h/ns_postings_0419/)
+- [03/19](https://www.reddit.com/r/singapore/comments/d3huve/0319_postings_thread/)
+- [02/19 (1)](https://www.reddit.com/r/singapore/comments/c070tp/ns_postings_0219/)
+- [02/19 (2)](https://www.reddit.com/r/singapore/comments/c0ehzc/0219_ns_postings/)
+- [01/19](https://www.reddit.com/r/singapore/comments/b18omm/ns_postings_0119/)
+- [04/18](https://www.reddit.com/r/singapore/comments/a5z4n7/ns_postings_0418/)
 
 ## Stories
 ### General
@@ -102,13 +112,17 @@ Just some content to binge read.
 - [IPPT and ICT](https://www.reddit.com/r/singapore/comments/edj9vf/question_about_ippts_and_ict_after_ns/)
 
 <script>
+import PagesList from '../components/PagesList.vue'
 import Contributors from '../components/Contributors.vue'
 export default {
   components: {
+    PagesList,
     Contributors,
   }
 }
 </script>
 
+## Pages
+<PagesList />
 
 <Contributors v-bind:usernames="['SteamedChickenRice','realsingapore', 'jthongling', 'okedokeloke', 'Kiriketsuki', 'HunterF22', '91sun']" />

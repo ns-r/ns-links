@@ -15,13 +15,6 @@
           </a>
         </li>
       </ul>
-      <hr>
-      <h2>Other pages</h2>
-      <ul>
-        <li v-for='page in otherPages' v-bind:key='page.link'>
-          <a :href="page.link">{{page.title}}</a>
-        </li>
-      </ul>
     </div>
   </div>
 </template>
@@ -36,18 +29,6 @@ export default {
   data: () => {
     return {
       expanded: false,
-      // TODO: inject all pages here
-      // find a way to automate
-      otherPages: [
-        {
-          link: "/commands",
-          title: "Commands"
-        },
-        {
-          link: '/ranks',
-          title: "Ranks"
-        }
-      ]
     };
   },
   mounted() {

@@ -1,6 +1,20 @@
 siteConfig:
   title: NS Links
   desc: A list of links to help people serving National Service in Singapore.
+  pages:
+    - indexRoute: ''
+      pages:
+        - title: Commands
+          slug: commands
+        - title: Ranks
+          slug: ranks
+    - category: BMT
+      indexRoute: '/bmt'
+      pages:
+        - title: Fieldcamp
+          slug: fieldcamp
+        - title: BIC
+          slug: bic
 
 permalinks:
   # post: /posts/:slug
