@@ -51,6 +51,8 @@ These websites are usually under maintenance on weekends.
 ### Commando
 - [Training](https://www.quora.com/What-SSG-commandos-training-include)
 
+### Navy
+- [Warfare system operator](https://www.reddit.com/r/singapore/comments/9fq9m6/ns_life_after_bmt/)
 
 ### Past posting orders
 - [01/20](https://www.reddit.com/r/NationalServiceSG/comments/fhdok9/posting_012020/)
