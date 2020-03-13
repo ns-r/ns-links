@@ -1,19 +1,17 @@
 {
   "name": "ns-links",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A list of links to help people serving National Service in Singapore.",
+  "author": "themindstorm",
+  "private": true,
   "scripts": {
-    "dev": "saber",
-    "build": "saber build"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "saber": "^0.11.5",
-    "saber-plugin-query-posts": "^0.4.5",
-    "sass": "^1.26.2",
-    "sass-loader": "^8.0.2"
-  }
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
 }

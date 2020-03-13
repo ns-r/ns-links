@@ -37,7 +37,6 @@ build/Release
 # Dependency directories
 node_modules/
 jspm_packages/
-node_modules_dev/
 
 # TypeScript v1 declaration files
 typings/
@@ -84,17 +83,8 @@ dist
 # Service worker
 sw.*
 
-# Mac OSX
+# macOS
 .DS_Store
 
 # Vim swap files
 *.swp
-
-.Rproj.user
-.Rhistory
-.RData
-data-raw/raw/*.zip
-data-raw/ftp_auth
-temp
-
-.saber
