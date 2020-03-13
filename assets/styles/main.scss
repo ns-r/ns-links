@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-size: 19px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; 
+}
+* { box-sizing: border-box; }
+body { 
+  // background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(0, 0,0, 0.05);
+  color: var(--font-color);
+}

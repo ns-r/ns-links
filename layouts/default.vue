@@ -1,55 +1,71 @@
-<template>
-  <div>
-    <nuxt />
-  </div>
+/*
+This will be used for the
+- main links page
+- all other blog pages
+*/
+
+<template lang="pug">
+  Main
+    main
+      article
+        .wrapper
+          h1 NS Links
+          p Site description
+      aside
+        .wrapper
+          TOC
 </template>
 
-<style>
-html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
+<script>
+import Main from "@/layouts/main.vue";
+import TOC from "@/components/toc.vue";
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
+export default {
+  components: { Main, TOC }
+};
+</script>
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
+<style lang="scss" scoped>
+@import "@/assets/styles/article.scss";
+@import "@/assets/styles/aside.scss";
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
+// style for grid (<main>)
+main {
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  grid-gap: (--main-padding);
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
+  @include not-mobile-screen {
+    // this will cause too much side padding in mobile
+    // only for descktop v
+    padding: var(--main-padding) 15%;
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
+    // some margin above sidebar so it doesn't go above title
+    // this is not required in mobile
+    aside {
+      margin-top: calc(1.7 * var(--extra-padding));
+    }
+
+    .mobile-only {
+      display: none;
+    }
+  }
+
+  // reduce padding on side for tablet screen
+  @include tablet-screen {
+    padding: var(--main-padding) 5%;
+  }
+
+  @include mobile-screen {
+    padding: var(--main-padding) 5%;
+    
+    grid-template-columns: 100% 0;
+    grid-gap: none;
+
+    // hide aside
+    aside {
+      display: none;
+    }
+  }
 }
 </style>
