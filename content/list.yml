@@ -4,6 +4,7 @@ list:
     pages:
       - commands
       - ranks
+      - free-time
   - name: BMT
     slug: bmt
     pages:
