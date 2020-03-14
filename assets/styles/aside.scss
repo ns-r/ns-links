@@ -1,0 +1,29 @@
+.sidebar-item {
+  padding: var(--extra-padding);
+  border-radius: var(--border-radius);
+
+  background-color: rgba(0, 0,0, 0.08);
+
+  // less padding on mobile
+  @include mobile-screen {
+    padding: var(--main-padding);
+  }
+
+  h2 {
+    margin: unset;
+    font-size: 1.3em;
+    // margin-bottom: var(--dense-padding);
+    margin-bottom: 0;
+  }
+  ul {
+    font-size: 0.9em;
+    list-style: none;
+    padding-left: unset;
+
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  // space between two sidebar boxes
+  margin-bottom: var(--main-padding);
+}

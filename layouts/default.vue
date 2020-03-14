@@ -9,8 +9,8 @@ This will be used for the
     main
       article
         .wrapper
-          h1 NS Links
-          p Site description
+          .content
+            nuxt
       aside
         .wrapper
           TOC
@@ -25,7 +25,7 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "@/assets/styles/article.scss";
 @import "@/assets/styles/aside.scss";
 
@@ -33,17 +33,23 @@ export default {
 main {
   display: grid;
   grid-template-columns: 1fr 250px;
-  grid-gap: (--main-padding);
+  grid-gap: calc(1.7 * var(--main-padding));
 
   @include not-mobile-screen {
     // this will cause too much side padding in mobile
     // only for descktop v
-    padding: var(--main-padding) 15%;
+    padding: var(--main-padding) 13%;
 
     // some margin above sidebar so it doesn't go above title
     // this is not required in mobile
     aside {
       margin-top: calc(1.7 * var(--extra-padding));
+
+      // TODO: should it be sticky?
+      .wrapper {
+        // position: sticky;
+        // top: calc(1.7 * var(--extra-padding));
+      }
     }
 
     .mobile-only {
@@ -58,7 +64,7 @@ main {
 
   @include mobile-screen {
     padding: var(--main-padding) 5%;
-    
+
     grid-template-columns: 100% 0;
     grid-gap: none;
 

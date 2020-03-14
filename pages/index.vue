@@ -1,10 +1,60 @@
 <template lang='pug'>
-  main
-    h2 This is the page
-    p This should already be on default, which is on main
+  div
+    h1 NS Links
+    //- TODO: put global site description here
+    p A list of links to help people serving National Service in Singapore.
+    .markdown-links-content
+      markdown
 </template>
 
 <script>
+import markdownContent from "@/content/index.md";
+
 export default {
-}
+  components: {
+    markdown: markdownContent.vue.component
+  },
+  mounted() {
+    // setting it to state
+    console.log(markdownContent)
+    this.$store.commit('headings/getHeadings', markdownContent.body)
+  }
+};
 </script>
+
+// this cannot be scoped because "markdown" is a component
+<style lang="scss" >
+.markdown-links-content {
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      @include button;
+
+      // inline button group style
+      margin-right: var(--dense-padding);
+
+      // seems that there's some default margin right (?)
+      // so increase margin-bottomt to match
+      margin-bottom: calc(1.8 * var(--dense-padding));
+
+      &:hover {
+        // highlight on hover
+        border: 1px solid blue;
+        color: blue;
+
+        // desktop only
+        @include not-mobile-screen {
+          // increase border thickness
+          border: 2px solid blue;
+
+          // increase side padding
+          padding: var(--dense-padding) calc(3 * var(--dense-padding));
+        }
+      }
+    }
+  }
+}
+</style>

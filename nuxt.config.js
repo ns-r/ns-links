@@ -1,9 +1,41 @@
+const path = require('path')
+import Mode from 'frontmatter-markdown-loader/mode'
+// const md = require('markdown-it')();
+// const markdownItAnchor = require('markdown-it-anchor');
+import MarkdownIt from 'markdown-it'
+import mia from 'markdown-it-anchor'
+
+const md = new MarkdownIt({
+  html: true,
+  typographer: true
+})
+md.use(mia)
+
+
+// ADDING TARGET BLANK
+var defaultRender = md.renderer.rules.link_open || function (tokens, idx, options, env, self) {
+  return self.renderToken(tokens, idx, options);
+};
+
+md.renderer.rules.link_open = function (tokens, idx, options, env, self) {
+  // If you are sure other plugins can't add `target` - drop check below
+  var aIndex = tokens[idx].attrIndex('target');
+
+  if (aIndex < 0) {
+    tokens[idx].attrPush(['target', '_blank']); // add new attribute
+  } else {
+    tokens[idx].attrs[aIndex][1] = '_blank';    // replace value of existing attr
+  }
+
+  // pass token to default renderer.
+  return defaultRender(tokens, idx, options, env, self);
+};
+// 
+
 
 export default {
   mode: 'universal',
-  /*
-  ** Headers of the page
-  */
+
   head: {
     // title: process.env.npm_package_name || '',
     title: 'NS Links',
@@ -16,42 +48,47 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  /*
-  ** Customize the progress-bar color
-  */
+  //Customize the progress-bar color
   loading: { color: '#000' },
-  /*
-  ** Global CSS
-  */
   css: [
   ],
-  /*
-  ** Plugins to load before mounting the App
-  */
+  //Plugins to load before mounting the App
   plugins: [
+    '~/plugins/global-components.js'
   ],
-  /*
-  ** Nuxt.js dev-modules
-  */
+
+  //Nuxt.js dev-modules
+
   buildModules: [
   ],
-  /*
-  ** Nuxt.js modules
-  */
+
+  // Nuxt.js modules
+
   modules: ['@nuxtjs/style-resources'],
   styleResources: {
     scss: [
-      'assets/styles/variables.scss'
+      'assets/styles/variables.scss',
+      'assets/styles/button.scss',
     ]
   },
-  /*
-  ** Build configuration
-  */
+
+  // Build configuration
   build: {
-    /*
-    ** You can extend webpack config here
-    */
     extend(config, ctx) {
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: 'frontmatter-markdown-loader',
+        // include: path.resolve(__dirname, 'content'),
+        options: {
+          mode: [Mode.VUE_RENDER_FUNCTIONS, Mode.VUE_COMPONENT, Mode.BODY],
+          vue: {
+            // root: "dynamicMarkdown"
+          },
+          markdown(body) {
+            return md.render(body)
+          }
+        }
+      })
     }
   }
 }

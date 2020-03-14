@@ -7,7 +7,12 @@ html, body {
 }
 * { box-sizing: border-box; }
 body { 
-  // background-color: rgba(255, 255, 255, 0.85);
-  background-color: rgba(0, 0,0, 0.05);
+  background-color: rgba(0, 0,0, 0.01);
   color: var(--font-color);
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  margin-bottom: 0.3em;
 }
