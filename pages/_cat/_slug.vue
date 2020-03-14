@@ -1,8 +1,6 @@
 <template>
   <div>
-    <BackButton to="/list">
-      list
-    </BackButton>
+    <BackButton to="/list">list</BackButton>
     <h1>{{ title }}</h1>
     <!-- <client-only> -->
     <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
@@ -18,7 +16,12 @@ export default {
   components: { BackButton, DynamicMarkdown },
   mounted() {
     // this.body
-    this.$store.commit('toc/setBody', this.body)
+    this.$store.commit("toc/setBody", this.body);
+  },
+  head() {
+    return {
+      title: `${this.title} - NS Links`
+    };
   },
   async asyncData({ params, app }) {
     // make sure that links are NOT case sensitive
@@ -38,6 +41,4 @@ export default {
 
 <style lang="scss">
 @import "@/assets/styles/article.scss";
-
-
 </style>

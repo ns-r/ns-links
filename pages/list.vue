@@ -18,8 +18,13 @@ import BackButton from "@/components/back-button.vue";
 export default {
   components: { BackButton },
   mounted() {
-    // 
+    // automate this
     this.$store.commit("toc/setBody", "## General\n## BMT\n## Vocations");
+  },
+  head() {
+    return {
+      title: "Pages list - NS Links"
+    }
   },
   async asyncData({ params, app }) {
     // if (process.server) {
