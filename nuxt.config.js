@@ -49,7 +49,9 @@ md.renderer.rules.link_open = function (tokens, idx, options, env, self) {
 
 export default {
   mode: 'universal',
-
+  env: {
+    baseTitle: "NS Links"
+  },
   head: {
     // title: process.env.npm_package_name || '',
     title: 'NS Links',
@@ -88,12 +90,12 @@ export default {
   },
 
   // put slash at end
-  redirect: [
-    {
-      from: '^.*(?<!\/)$',
-      to: (from, req) => req.url + '/'
-    }
-  ],
+  // redirect: [
+  //   {
+  //     from: '^.*(?<!\/)$',
+  //     to: (from, req) => req.url + '/'
+  //   }
+  // ],
 
   // Build configuration
   build: {
