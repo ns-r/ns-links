@@ -4,7 +4,7 @@
     //- TODO: put global site description here
     p A list of links and resources to help people serving National Service in Singapore.
     p
-      nuxt-link(to='/list') List of pages
+      nuxt-link(to='/list').button.black Written guides
 
     .markdown-links-content
       markdown
@@ -27,6 +27,9 @@ export default {
 
 // this cannot be scoped because "markdown" is a component
 <style lang="scss" >
+.button {
+  @include button
+}
 .markdown-links-content {
   ul {
     list-style: none;
@@ -35,6 +38,9 @@ export default {
 
     li {
       @include button;
+
+      // // by default buttons are bold, but these should not be bold
+      // font-weight: normal;
 
       // inline button group style
       margin-right: var(--dense-padding);

@@ -14,14 +14,16 @@ This will be used for the
       aside
         .wrapper
           TOC
+          Links
 </template>
 
 <script>
 import Route from "@/layouts/route.vue";
 import TOC from "@/components/toc.vue";
+import Links from "@/components/links.vue";
 
 export default {
-  components: { Route, TOC },
+  components: { Route, TOC, Links },
 
 };
 </script>

@@ -2,7 +2,7 @@
 <template lang="pug">
   div
     BackButton(to="/") links
-    h1 NS Help
+    h1 Guides
     //- p {{ list }}
     div(v-for='cat in list' v-bind:key='cat.slug')
       h2(:id='cat.slug') {{ cat.name }}
@@ -23,7 +23,7 @@ export default {
   },
   head() {
     return {
-      title: "Pages list - NS Links"
+      title: "Guides - NS Links"
     }
   },
   async asyncData({ params, app }) {

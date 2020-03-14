@@ -11,9 +11,10 @@
 
   // some text style for better readability
   letter-spacing: 1px;
+  // font-weight: bold;
 
   // padding and border radius
-  padding: var(--dense-padding) calc(2.3* var(--dense-padding));
+  padding: var(--dense-padding) calc(3.5* var(--dense-padding));
   border-radius: var(--border-radius);
 
   // transition for hover and stuff

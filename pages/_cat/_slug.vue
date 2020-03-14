@@ -1,10 +1,13 @@
 <template>
   <div>
-    <BackButton to="/list">list</BackButton>
+    <BackButton to="/list">guides</BackButton>
     <h1>{{ title }}</h1>
     <!-- <client-only> -->
     <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
     <!-- </client-only> -->
+    <div class="support">
+      <a :href="`https://github.com/themindstorm/ns-links/blob/master/content/${cat}/${slug}.md`">Edit this page on GitHub</a>.
+    </div>
   </div>
 </template>
 
@@ -33,7 +36,10 @@ export default {
       title: markdownFileContent.attributes.title,
       body: markdownFileContent.body,
       renderFunc: `(${markdownFileContent.vue.render})`,
-      staticRenderFuncs: `[${markdownFileContent.vue.staticRenderFns}]`
+      staticRenderFuncs: `[${markdownFileContent.vue.staticRenderFns}]`,
+
+      cat: cat,
+      slug: slug,
     };
   }
 };
@@ -41,4 +47,13 @@ export default {
 
 <style lang="scss">
 @import "@/assets/styles/article.scss";
+
+.support {
+  font-size: 0.8em;
+  margin-top: calc(1.5 * var(--heading-margin));
+
+  a {
+    color: unset;
+  }
+}
 </style>
