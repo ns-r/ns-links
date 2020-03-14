@@ -1,7 +1,7 @@
 const path = require('path')
 import Mode from 'frontmatter-markdown-loader/mode'
-// const md = require('markdown-it')();
-// const markdownItAnchor = require('markdown-it-anchor');
+
+// markdown configuration
 import MarkdownIt from 'markdown-it'
 import mia from 'markdown-it-anchor'
 
@@ -10,6 +10,20 @@ const md = new MarkdownIt({
   typographer: true
 })
 md.use(mia)
+
+// list of pages
+import fs from 'fs'
+import YAML from 'yaml'
+var file = fs.readFileSync('./content/list.yml', 'utf8')
+var content = YAML.parse(file).list
+
+var routes = []
+
+content.forEach((cat) => {
+  cat.pages.forEach((page) => {
+    routes.push(`${cat.slug}/${page}`)
+  })
+})
 
 
 // ADDING TARGET BLANK
@@ -84,6 +98,10 @@ export default {
   // Build configuration
   build: {
     extend(config, ctx) {
+      config.node = {
+        fs: 'empty'
+      }
+
       config.module.rules.push({
         test: /\.md$/,
         loader: 'frontmatter-markdown-loader',
@@ -108,13 +126,6 @@ export default {
   },
 
   generate: {
-    routes: [
-      '/',
-      '/list',
-      '/general/commands',
-      '/general/ranks',
-      '/bmt/fieldcamp',
-      '/bmt/bic',
-    ]
+    routes: routes
   }
 }

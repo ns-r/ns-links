@@ -5,7 +5,7 @@
     h1 NS Help
     //- p {{ list }}
     div(v-for='cat in list' v-bind:key='cat.slug')
-      h2 {{ cat.name }}
+      h2(:id='cat.slug') {{ cat.name }}
       ul
         li(v-for='page in cat.pages' v-bind:key='page.slug')
           nuxt-link(:to=" '/' + cat.slug + '/' + page.slug") {{ page.title }}
@@ -14,13 +14,24 @@
 
 <script>
 import BackButton from "@/components/back-button.vue";
+
 export default {
   components: { BackButton },
   mounted() {
-    // ['nothing]
-    this.$store.commit("toc/setBody", "## General\n## BMT");
+    // 
+    this.$store.commit("toc/setBody", "## General\n## BMT\n## Vocations");
   },
   async asyncData({ params, app }) {
+    // if (process.server) {
+    // const path = require("path");
+    // const fs = require("fs");
+    // const YAML = require("YAML");
+
+    // var p = process.cwd();
+    // var file = fs.readFileSync(p + "/content/list.yml", "utf8");
+
+    // var catList = YAML.parse(file).list;
+
     const catList = (await import("~/content/list.yml")).list;
 
     var newCatList = [];
@@ -52,6 +63,13 @@ export default {
     return {
       list: newCatList
     };
+    // }
+
+    // });
+
+    // return {
+    //   list: newCatList
+    // };
   }
 };
 </script>

@@ -34,8 +34,8 @@ export const mutations = {
     }
     // state.headings = ['h', 'h2', 'h3']
 
-    console.log("Headings has been set to:")
-    console.log(state.headings)
+    // console.log("Headings has been set to:")
+    // console.log(state.headings)
   },
 }
 

@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
@@ -18,7 +18,8 @@
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.5",
     "nuxt": "^2.0.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "yaml": "^1.8.2"
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.0.0",

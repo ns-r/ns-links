@@ -9,3 +9,7 @@ list:
     pages:
       - bic
       - fieldcamp
+  - name: Vocations
+    slug: vocations
+    pages:
+      - transport
