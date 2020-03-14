@@ -49,7 +49,6 @@ md.renderer.rules.link_open = function (tokens, idx, options, env, self) {
 
 export default {
   mode: 'universal',
-  buildDir: 'public',
 
   head: {
     // title: process.env.npm_package_name || '',
@@ -127,6 +126,7 @@ export default {
   },
 
   generate: {
+    dir: 'public',
     routes: routes
   }
 }
