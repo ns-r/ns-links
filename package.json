@@ -11,8 +11,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/redirect-module": "^0.3.1",
     "@vue/component-compiler-utils": "^3.1.1",
     "frontmatter-markdown-loader": "^3.2.1",
+    "js-yaml-loader": "^1.2.2",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.5",
     "nuxt": "^2.0.0",

@@ -64,13 +64,22 @@ export default {
 
   // Nuxt.js modules
 
-  modules: ['@nuxtjs/style-resources'],
+  modules: ['@nuxtjs/style-resources', '@nuxtjs/redirect-module'],
   styleResources: {
     scss: [
       'assets/styles/variables.scss',
-      'assets/styles/button.scss',
+      'assets/mixins/button.scss',
+      'assets/mixins/list.scss',
     ]
   },
+
+  // put slash at end
+  redirect: [
+    {
+      from: '^.*(?<!\/)$',
+      to: (from, req) => req.url + '/'
+    }
+  ],
 
   // Build configuration
   build: {
@@ -89,6 +98,23 @@ export default {
           }
         }
       })
+
+      // yml files
+      config.module.rules.push({
+        test: /\.yml$/,
+        use: 'js-yaml-loader',
+      })
     }
+  },
+
+  generate: {
+    routes: [
+      '/',
+      '/list',
+      '/general/commands',
+      '/general/ranks',
+      '/bmt/fieldcamp',
+      '/bmt/bic',
+    ]
   }
 }

@@ -1,0 +1,11 @@
+list:
+  - name: General
+    slug: general
+    pages:
+      - commands
+      - ranks
+  - name: BMT
+    slug: bmt
+    pages:
+      - bic
+      - fieldcamp

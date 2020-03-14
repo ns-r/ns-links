@@ -7,7 +7,7 @@ html, body {
 }
 * { box-sizing: border-box; }
 body { 
-  background-color: rgba(0, 0,0, 0.01);
+  background-color: #fffffe;
   color: var(--font-color);
 }
 
@@ -15,4 +15,9 @@ h1 {
   font-size: 3em;
   font-weight: 900;
   margin-bottom: 0.3em;
+  margin-top: var(--heading-margin);
+}
+// increase h2 font size 
+h2 {
+  font-size: 2em;
 }

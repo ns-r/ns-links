@@ -3,6 +3,7 @@
     h2(v-on:click='toggle()')
       div Contents
       .chevron v
+    //- p {{ headings }}
     ul(v-if='expanded' )
       li(v-for='h in headings' v-bind:key='h.text + Math.random()')
         div(v-bind:class="{indent : h.level == 2}")
@@ -15,15 +16,21 @@ export default {
   data: () => {
     return {
       expanded: true,
-      headings: [],
+      // headings: null,
       path: ""
     };
   },
   mounted() {
-    this.headings = this.$store.state.headings.markdownHeadings;
-    console.log('Route')
-    console.log(this.$route)
-    this.path = this.$route.path
+    // console.log(this.$store.state.toc.markdownHeadings)
+    // this.headings = this.$store.state.toc.markdownHeadings
+    // console.log(this.$store.getters['toc/getHeadingsFromBody'])
+  },
+  computed: {
+    headings() {
+      // console.log('heading is being computed')
+      // return this.$store.getters['toc/getHeadingsFromBody']
+      return this.$store.state.toc.headings
+    }
   },
   methods: {
     toggle() {
@@ -47,17 +54,5 @@ h2 {
     font-weight: normal;
     // make this a little higher some how
   }
-}
-
-.indent {
-  margin-left: 1em;
-}
-
-a {
-  color: unset;
-  text-decoration: unset;
-
-  // display: block;
-  // margin-bottom: 0.4em;
 }
 </style>

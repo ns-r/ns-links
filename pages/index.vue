@@ -2,7 +2,10 @@
   div
     h1 NS Links
     //- TODO: put global site description here
-    p A list of links to help people serving National Service in Singapore.
+    p A list of links and resources to help people serving National Service in Singapore.
+    p
+      nuxt-link(to='/list') List of pages
+
     .markdown-links-content
       markdown
 </template>
@@ -15,9 +18,9 @@ export default {
     markdown: markdownContent.vue.component
   },
   mounted() {
-    // setting it to state
-    console.log(markdownContent)
-    this.$store.commit('headings/getHeadings', markdownContent.body)
+    // markdownContent.body
+    this.$store.commit('toc/setBody', markdownContent.body)
+    // console.log(this.$store.state.toc.markdownBody)
   }
 };
 </script>

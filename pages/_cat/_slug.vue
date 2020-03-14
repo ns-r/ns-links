@@ -1,26 +1,31 @@
 <template>
   <div>
+    <BackButton to="/list">
+      list
+    </BackButton>
     <h1>{{ title }}</h1>
-    <client-only>
-      <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
-    </client-only>
+    <!-- <client-only> -->
+    <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
+    <!-- </client-only> -->
   </div>
 </template>
 
 <script>
-import DynamicMarkdown from "~/components/DynamicMarkdown.vue";
+import BackButton from "~/components/back-button.vue";
+import DynamicMarkdown from "~/components/markdown/DynamicMarkdown.vue";
+
 export default {
-  components: { DynamicMarkdown },
+  components: { BackButton, DynamicMarkdown },
   mounted() {
-    // setting it to state
-    console.log(this.body)
-    this.$store.commit('headings/getHeadings', this.body)
+    // this.body
+    this.$store.commit('toc/setBody', this.body)
   },
   async asyncData({ params, app }) {
-    const cat = params.cat.toLowerCase()
-    const slug = params.slug.toLowerCase()
+    // make sure that links are NOT case sensitive
+    const cat = params.cat.toLowerCase();
+    const slug = params.slug.toLowerCase();
+
     const markdownFileContent = await import(`~/content/${cat}/${slug}.md`);
-    console.log(markdownFileContent.body)
     return {
       title: markdownFileContent.attributes.title,
       body: markdownFileContent.body,
@@ -32,12 +37,7 @@ export default {
 </script>
 
 <style lang="scss">
-.alert {
-  padding: var(--main-padding);
-  border-radius: var(--border-radius);
+@import "@/assets/styles/article.scss";
 
-  &.warning {
-    background-color: rgba(255, 166, 0, 0.445);
-  }
-}
+
 </style>

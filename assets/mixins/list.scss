@@ -1,0 +1,28 @@
+@mixin a-list {
+  font-size: 0.9em;
+  list-style: none;
+  padding-left: unset;
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  li {
+    &:hover {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+
+  // reset a style 
+  a {
+    color: unset;
+    text-decoration: unset;
+  }
+
+
+  // for TOC
+  .indent {
+    margin-left: 1em;
+  }
+
+}

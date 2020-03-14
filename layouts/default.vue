@@ -5,7 +5,7 @@ This will be used for the
 */
 
 <template lang="pug">
-  Main
+  Route
     main
       article
         .wrapper
@@ -17,11 +17,12 @@ This will be used for the
 </template>
 
 <script>
-import Main from "@/layouts/main.vue";
+import Route from "@/layouts/route.vue";
 import TOC from "@/components/toc.vue";
 
 export default {
-  components: { Main, TOC }
+  components: { Route, TOC },
+
 };
 </script>
 
@@ -46,10 +47,10 @@ main {
       margin-top: calc(1.7 * var(--extra-padding));
 
       // TODO: should it be sticky?
-      .wrapper {
+      // .wrapper {
         // position: sticky;
         // top: calc(1.7 * var(--extra-padding));
-      }
+      // }
     }
 
     .mobile-only {
@@ -65,7 +66,7 @@ main {
   @include mobile-screen {
     padding: var(--main-padding) 5%;
 
-    grid-template-columns: 100% 0;
+    grid-template-columns: 1fr;
     grid-gap: none;
 
     // hide aside

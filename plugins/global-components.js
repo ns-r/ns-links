@@ -1,4 +1,4 @@
 import Vue from 'vue'
-// import GlobalComponent from '~/components/GlobalComponent.vue'
+import Alert from '~/components/article/alert.vue'
 
-// Vue.component('GlobalComponent', GlobalComponent)
+Vue.component('Alert', Alert)
