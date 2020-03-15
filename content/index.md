@@ -103,6 +103,7 @@ These websites are usually under maintenance on weekends.
 ### Meme pages
 - [memedefsg](https://www.instagram.com/memedefsg/?hl=en)
 - [mengonewildmagazine](https://www.instagram.com/mengonewildmagazine/?hl=en)
+- [childrenholdingguns](childrenholdingguns)
 
 ## Intersting discussion
 Just some content to binge read.

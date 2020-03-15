@@ -1,8 +1,8 @@
 <template lang='pug'>
   div
-    h1 NS Links
+    h1 {{ this.siteConfig.title }}
     //- TODO: put global site description here
-    p A list of links and resources to help people serving National Service in Singapore.
+    p {{ this.siteConfig.desc }}
     p
       nuxt-link(to='/list').button.black Written guides
 
@@ -16,6 +16,12 @@ import markdownContent from "@/content/index.md";
 export default {
   components: {
     markdown: markdownContent.vue.component
+  },
+  head() {
+    return {
+      title: this.siteConfig.title,
+      titleTemplate: '%s'
+    }
   },
   mounted() {
     // markdownContent.body

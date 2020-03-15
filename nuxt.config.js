@@ -14,9 +14,11 @@ md.use(mia)
 // list of pages
 import fs from 'fs'
 import YAML from 'yaml'
-var file = fs.readFileSync('./content/list.yml', 'utf8')
-var content = YAML.parse(file).list
+var file = fs.readFileSync('./siteConfig.yml', 'utf8')
+var siteConfig = YAML.parse(file)
 
+
+var content = siteConfig.list
 var routes = []
 
 content.forEach((cat) => {
@@ -49,16 +51,14 @@ md.renderer.rules.link_open = function (tokens, idx, options, env, self) {
 
 export default {
   mode: 'universal',
-  env: {
-    baseTitle: "NS Links"
-  },
   head: {
     // title: process.env.npm_package_name || '',
-    title: 'NS Links',
+    // title: siteConfig.title,
+    titleTemplate: '%s - ' + siteConfig.title,
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: siteConfig.desc }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -70,7 +70,8 @@ export default {
   ],
   //Plugins to load before mounting the App
   plugins: [
-    '~/plugins/global-components.js'
+    '~/plugins/global-components.js',
+    '~/plugins/siteConfig.js',
   ],
 
   //Nuxt.js dev-modules

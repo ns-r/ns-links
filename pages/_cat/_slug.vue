@@ -23,7 +23,7 @@ export default {
   },
   head() {
     return {
-      title: `${this.title} - NS Links`
+      title: `${this.title}`
     };
   },
   async asyncData({ params, app }) {

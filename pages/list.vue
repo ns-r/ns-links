@@ -23,7 +23,7 @@ export default {
   },
   head() {
     return {
-      title: "Guides - NS Links"
+      title: "Guides"
     }
   },
   async asyncData({ params, app }) {
@@ -36,8 +36,9 @@ export default {
     // var file = fs.readFileSync(p + "/content/list.yml", "utf8");
 
     // var catList = YAML.parse(file).list;
-
-    const catList = (await import("~/content/list.yml")).list;
+    // console.log(app.siteConfig.list)
+    // const catList = (await import("~/content/list.yml")).list;
+    const catList = app.siteConfig.list
 
     var newCatList = [];
 

@@ -10,6 +10,9 @@ yarn-error.log*
 dist
 /dist
 
+public
+/public
+
 # Runtime data
 pids
 *.pid
