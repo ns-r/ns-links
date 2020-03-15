@@ -109,6 +109,7 @@ Just some content to binge read.
 
 - [Is NS a waste of time?](https://www.reddit.com/r/NationalServiceSG/comments/f68l6y/national_service_is_a_waste_of_time/)
 - [NS culuture is ridiculous](https://www.reddit.com/r/singapore/comments/8w0q09/ns_culture_is_ridiculous/)
+- [NS and the future](https://www.reddit.com/r/singapore/comments/ffaoby/does_ns_really_prepare_you_for_your_future_or_is/)
 
 ## After NS
 - [IPPT and ICT](https://www.reddit.com/r/singapore/comments/edj9vf/question_about_ippts_and_ict_after_ns/)
