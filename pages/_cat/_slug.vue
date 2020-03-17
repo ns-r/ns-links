@@ -69,7 +69,7 @@ export default {
     // filtering cat page
     var currentCat = app.siteConfig.list.filter(category => category.slug == cat)[0]
     var otherPageSlugs = currentCat.pages
-    console.log(otherPageSlugs)
+    // console.log(otherPageSlugs)
 
     // find the titles for each page
     var footerLinks = []
