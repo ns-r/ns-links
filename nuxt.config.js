@@ -70,7 +70,7 @@ export default {
   ],
   //Plugins to load before mounting the App
   plugins: [
-    '~/plugins/global-components.js',
+    '~/plugins/globalComponents.js',
     '~/plugins/siteConfig.js',
   ],
 
@@ -87,6 +87,7 @@ export default {
       'assets/styles/variables.scss',
       'assets/mixins/button.scss',
       'assets/mixins/list.scss',
+      'assets/mixins/a.scss',
     ]
   },
 

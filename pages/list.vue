@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import BackButton from "@/components/back-button.vue";
+import BackButton from "@/components/backButton.vue";
 
 export default {
   components: { BackButton },

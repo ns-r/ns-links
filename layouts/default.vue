@@ -5,7 +5,7 @@ This will be used for the
 */
 
 <template lang="pug">
-  Route
+  Root
     main
       article
         .wrapper
@@ -18,12 +18,12 @@ This will be used for the
 </template>
 
 <script>
-import Route from "@/layouts/route.vue";
+import Root from "@/layouts/root.vue";
 import TOC from "@/components/toc.vue";
-import Links from "@/components/links.vue";
+import Links from "@/components/Links.vue";
 
 export default {
-  components: { Route, TOC, Links },
+  components: { Root, TOC, Links },
 
 };
 </script>

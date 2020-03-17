@@ -2,7 +2,7 @@
   padding: var(--extra-padding);
   border-radius: var(--border-radius);
 
-  background-color: rgba(0, 0,0, 0.08);
+  background-color: var(--container-color);
 
   // less padding on mobile
   @include mobile-screen {
