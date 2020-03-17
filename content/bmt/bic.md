@@ -1,6 +1,7 @@
 ---
 title: BIC
 slug: bic
+lastUpdated: 2020-03-17
 ---
 
 <div class='alert warning'>

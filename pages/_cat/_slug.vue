@@ -6,7 +6,12 @@
     <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
     <!-- </client-only> -->
     <div class="support">
-      <a :href="`https://github.com/themindstorm/ns-links/blob/master/content/${cat}/${slug}.md`">Edit this page on GitHub</a>.
+      <div>Last Updated on {{ readableDate }}</div>
+      <div>
+        <a
+          :href="`https://github.com/themindstorm/ns-links/blob/master/content/${cat}/${slug}.md`"
+        >Edit this page on GitHub</a>.
+      </div>
     </div>
   </div>
 </template>
@@ -17,6 +22,30 @@ import DynamicMarkdown from "~/components/markdown/DynamicMarkdown.vue";
 
 export default {
   components: { BackButton, DynamicMarkdown },
+  data: () => {
+    return {
+      monthNames: [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ]
+    };
+  },
+  computed: {
+    readableDate() {
+      var date = new Date(this.lastUpdated)
+      return `${this.monthNames[date.getMonth()]} ${date.getDay()}, ${date.getFullYear()}`
+    }
+  },
   mounted() {
     // this.body
     this.$store.commit("toc/setBody", this.body);
@@ -34,12 +63,13 @@ export default {
     const markdownFileContent = await import(`~/content/${cat}/${slug}.md`);
     return {
       title: markdownFileContent.attributes.title,
+      lastUpdated: markdownFileContent.attributes.lastUpdated,
       body: markdownFileContent.body,
       renderFunc: `(${markdownFileContent.vue.render})`,
       staticRenderFuncs: `[${markdownFileContent.vue.staticRenderFns}]`,
 
       cat: cat,
-      slug: slug,
+      slug: slug
     };
   }
 };

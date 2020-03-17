@@ -1,6 +1,7 @@
 ---
 title: Ranks
 slug: ranks
+lastUpdated: 2020-03-17
 ---
 
 <!-- <div class='alert warning'> This page is not complete. You can help by expanding it, similar to how you have expanded the army.</div> -->

@@ -13,8 +13,8 @@ list:
     slug: bmt
     pages:
       - cqb
-      - bic
       - fieldcamp
+      - bic
   - name: Vocations
     slug: vocations
     pages:

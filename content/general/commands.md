@@ -1,6 +1,7 @@
 ---
 title: Commands
 slug: commands
+lastUpdated: 2020-03-17
 ---
 
 Before you start, note that "*Kiri*" means **left**, and "*Kanan*" means **right**.

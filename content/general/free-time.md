@@ -1,6 +1,7 @@
 ---
 title: Making use of free time
 slug: free-time
+lastUpdated: 2020-03-17
 ---
 
 Many non-combat vocations such as transport operator and ASA require you to only work from 8 AM to 5 PM, after which you are free to do whatever you want. Here are some things to do in that time.

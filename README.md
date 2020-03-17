@@ -1,11 +1,8 @@
 # 🇸🇬 NS Links
-> A list of resources to help people serving National Service in Singapore 
+> Links and resources to help people serving National Service in Singapore.
 
 ## Gallery (WIP)
 ![desktop view](./readme-images/desktop-view.png)
-
-## Resources
-Most of the resources are from Reddit ([r/Singapore](https://www.reddit.com/r/singapore) and [r/NationalServiceSG](https://reddit.com/r/nationalservicesg)).
 
 ## Built with
 - Nuxt ~~Saber~~
@@ -13,6 +10,12 @@ Most of the resources are from Reddit ([r/Singapore](https://www.reddit.com/r/si
 - SCSS
 
 All the content can be found in `pages/index.md`. The links are in the markdown-link format, along with extra styling to make the unordered list look like a button group.
+
+## Development features
+## Features
+- [x] Create `siteConfig.yml` for site metadata
+- [ ] Use a single YAML plugin
+- [ ] Set up pre-rendering correctly
 
 ## Contribution
 ### Adding a link
@@ -28,7 +31,7 @@ All guides go in `content/index.md`, in the markdown links format. For example, 
 - [LINK DESCRIPTION](https://www.example.com)
 ```
 
-Change `LINK DESCRIPTION` with an appropriate description.
+Change `LINK DESCRIPTION` to an appropriate description.
 
 
 ### Adding a guide

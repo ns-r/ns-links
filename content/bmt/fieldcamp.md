@@ -1,6 +1,7 @@
 ---
 title: Fieldcamp
 slug: fieldcamp
+lastUpdated: 2020-03-17
 ---
 
 
@@ -35,4 +36,11 @@ The fieldcamp is the longest, and worst event in BMT. It is a high-key event, so
 
 ### Day 5
 - SIT test
-- Go back to coyline, clean up eqipment
+- Go back to coyline
+- Clean up eqipment
+- Book out!
+
+<!-- {{ $nuxt }} -->
+
+## After fieldcamp
+Your BMT should get less stressful post fieldcamp. The only major events left are <nuxt-link to="/bmt/bic">BIC</nuxt-link>, 16K, and 24K, followed by POP!
