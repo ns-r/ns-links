@@ -52,6 +52,9 @@ lastUpdated: 2020-03-20
 
 | Symbol | Rank | Abbr | Address |
 | -- | -- | -- | -- |
+| | Officers Cadet, Common Leadership Term | OCT |
+| | Officers Cadet, Service Term | OCT |
+| | Officers Cadet, Profession Term | OCT |
 | | Second Lieutenant | 2LT | Sir
 | | Lieutenant | LTA | Sir
 | | Captain | CAP | America
@@ -61,14 +64,16 @@ lastUpdated: 2020-03-20
 | Symbol | Rank | Abbr | Address |
 | -- | -- | -- | -- |
 | | Major | MAJ | Sir
-| | Lieutenant Colonel |  | Sir
-| | Senior Lieutenant Colonel |  | Sir
-| | Colonel |  | Sir
+| | Lieutenant Colonel | LTC | Sir
+| | Senior Lieutenant Colonel | SLTC | Sir
+| | Colonel | COL | Sir
 
 ## Generals
 
 | Symbol | Rank | Abbr | Address |
 | -- | -- | -- | -- |
-| | Brigadier General | | Sir |
-| | Major General | | Sir |
-| | Lieutenant General | | Sir |
+| | Brigadier General | BG | Sir |
+| | Major General | MG | Sir |
+| | Lieutenant General | LG | Sir |
+
+## Military Domain Experts
