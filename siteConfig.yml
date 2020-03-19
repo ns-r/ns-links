@@ -12,6 +12,7 @@ list:
   - name: BMT
     slug: bmt
     pages:
+      - sar21
       - hg
       - cqb
       - fieldcamp
@@ -24,3 +25,7 @@ list:
       - transport
       - infantry
       - asa
+  - name: Site
+    slug: site
+    pages:
+      - improve

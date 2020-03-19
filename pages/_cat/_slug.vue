@@ -7,10 +7,13 @@
     <!-- </client-only> -->
     <div class="support">
       <div>Last Updated on {{ readableDate }}</div>
-      <div>
+      <div class="links">
         <a
           :href="`https://github.com/themindstorm/ns-links/blob/master/content/${cat}/${slug}.md`"
-        >Edit this page on GitHub</a>.
+        >Edit this page on GitHub</a>
+        <nuxt-link
+          to="/site/improve/"
+        >Help improve this page</nuxt-link>
       </div>
     </div>
 
@@ -64,22 +67,24 @@ export default {
     // make sure that links are NOT case sensitive
     const cat = params.cat.toLowerCase();
     const slug = params.slug.toLowerCase();
-    
+
     // need to get all links of current cat to put in footer for easier navigation
     // filtering cat page
-    var currentCat = app.siteConfig.list.filter(category => category.slug == cat)[0]
-    var otherPageSlugs = currentCat.pages
+    var currentCat = app.siteConfig.list.filter(
+      category => category.slug == cat
+    )[0];
+    var otherPageSlugs = currentCat.pages;
     // console.log(otherPageSlugs)
 
     // find the titles for each page
-    var footerLinks = []
-    otherPageSlugs.forEach(async (pageSlug) => {
+    var footerLinks = [];
+    otherPageSlugs.forEach(async pageSlug => {
       const fileContent = await import(`~/content/${cat}/${pageSlug}.md`);
       footerLinks.push({
         slug: pageSlug,
         title: fileContent.attributes.title
-      })
-    })
+      });
+    });
 
     const markdownFileContent = await import(`~/content/${cat}/${slug}.md`);
     return {
@@ -105,8 +110,13 @@ export default {
   font-size: 0.8em;
   margin-top: calc(2.5 * var(--heading-margin));
 
-  a {
-    color: unset;
+  .links {
+    a {
+      color: unset;
+    }
+
+    display: flex;
+    justify-content: space-between;
   }
 
   margin-bottom: calc(2.5 * var(--heading-margin));

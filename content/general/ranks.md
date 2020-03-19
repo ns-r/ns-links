@@ -1,7 +1,7 @@
 ---
 title: Ranks
 slug: ranks
-lastUpdated: 2020-03-17
+lastUpdated: 2020-03-20
 ---
 
 <!-- <div class='alert warning'> This page is not complete. You can help by expanding it, similar to how you have expanded the army.</div> -->
@@ -12,13 +12,19 @@ lastUpdated: 2020-03-17
 
 ## Enlistees
 
+<style>
+  img {
+    height: 100px;
+  }
+</style>
+
 | Symbol | Rank | Abbr | Address |
 | -- | -- | -- | -- |
 | | Recruit | Rec | |
 | | Private | Pvt |  |
-| | Lance Corporal | LCP | |
-| | Corporal | CPL | Corporal |
-| | Corporal First Class | CFC | Corporal First Class |
+| ![LCP](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-lance-corporal.png) | Lance Corporal | LCP | |
+| ![CPL](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-corporal.png) | Corporal | CPL | Corporal |
+| ![CFC](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-corporal-first-class.png) | Corporal First Class | CFC | Corporal First Class |
 
 ## Specialists
 
