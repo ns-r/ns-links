@@ -48,7 +48,7 @@ export default {
       var date = new Date(this.lastUpdated);
       return `${
         this.monthNames[date.getMonth()]
-      } ${date.getDay()}, ${date.getFullYear()}`;
+      } ${date.getDate()}, ${date.getFullYear()}`;
     }
   },
   mounted() {
@@ -103,12 +103,12 @@ export default {
 
 .support {
   font-size: 0.8em;
-  margin-top: calc(1.5 * var(--heading-margin));
+  margin-top: calc(2.5 * var(--heading-margin));
 
   a {
     color: unset;
   }
 
-  margin-bottom: var(--extra-padding);
+  margin-bottom: calc(2.5 * var(--heading-margin));
 }
 </style>

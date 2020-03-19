@@ -14,6 +14,40 @@ The CQB (close quarter battle) lasts 2 days, 1 night.
 ## The activity
 It takes place in a simulated urban environment, where you learn basic room clearing. You have to apply camoflouge for this activity.
 
+## Items required
+### LBS
+- Camo tubes and mirror
+- Earplugs
+- Black tape
+- Torch light and filters
+- Utensils
+- Mug
+
+### Assault bag
+- Toiletries
+- RCK pack and cloth
+- Elbow and knee guards
+- Ground sheet
+- ET stick and blade (1 per section)
+
+## Drills
+### Postures
+1. Alert
+2. High alert
+3. Engagement
+
+### Movements
+1. Creep (high alert, slow)
+2. Quick pace (high alert, fast)
+3. Dash (alert, fast)
+4. Shuffle steps
+   
+### Contact drills
+- Front
+- Left/right
+- Rear
+- Multiple target
+
 ## Room clearing steps
 **Man 1**: *DOOR LEFT DOOR OPEN*
 
