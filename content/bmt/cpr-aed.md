@@ -6,8 +6,7 @@ lastUpdated: 2020-03-19
 
 ## CPR (cardiopulmonary resuscitation)
 
-Remember DRSABC
-
+Remember DRSABC:
 - Danger
 - Response: tap person twice in the shoulders and ask, "Are you okay?"
 - Shout:
