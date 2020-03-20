@@ -4,7 +4,12 @@ slug: ranks
 lastUpdated: 2020-03-20
 ---
 
-<!-- <div class='alert warning'> This page is not complete. You can help by expanding it, similar to how you have expanded the army.</div> -->
+<style>
+  img {
+    height: 100px;
+  }
+</style>
+
 
 <Alert :incomplete="true" />
 
@@ -12,16 +17,10 @@ lastUpdated: 2020-03-20
 
 ## Enlistees
 
-<style>
-  img {
-    height: 100px;
-  }
-</style>
-
 | Symbol | Rank | Abbr | Address |
 | -- | -- | -- | -- |
-| | Recruit | Rec | |
-| | Private | Pvt |  |
+| | Recruit | REC | |
+| | Private | PVT |  |
 | ![LCP](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-lance-corporal.png) | Lance Corporal | LCP | |
 | ![CPL](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-corporal.png) | Corporal | CPL | Corporal |
 | ![CFC](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-corporal-first-class.png) | Corporal First Class | CFC | Corporal First Class |
@@ -52,19 +51,19 @@ lastUpdated: 2020-03-20
 
 | Symbol | Rank | Abbr | Address |
 | -- | -- | -- | -- |
-| | Officers Cadet, Common Leadership Term | OCT |
-| | Officers Cadet, Service Term | OCT |
-| | Officers Cadet, Profession Term | OCT |
-| | Second Lieutenant | 2LT | Sir
-| | Lieutenant | LTA | Sir
-| | Captain | CAP | America
+| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-officer-cadet-common-leadership-term.png) | Officers Cadet, Common Leadership Term | OCT |
+| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-officer-cadet-service-term.png) | Officers Cadet, Service Term | OCT |
+| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-officer-cadet-professional-term.png) | Officers Cadet, Profession Term | OCT |
+| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-2nd-lieutenant.png) | Second Lieutenant | 2LT | Sir
+| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-lieutenant.png) | Lieutenant | LTA | Sir
+| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-captain.png) | Captain | CAP | America
 
 ## Senior Officers
 
 | Symbol | Rank | Abbr | Address |
 | -- | -- | -- | -- |
-| | Major | MAJ | Sir
-| | Lieutenant Colonel | LTC | Sir
+| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-major.png) | Major | MAJ | Sir
+| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-lieutenant-colonel.png) | Lieutenant Colonel | LTC | Sir
 | | Senior Lieutenant Colonel | SLTC | Sir
 | | Colonel | COL | Sir
 
