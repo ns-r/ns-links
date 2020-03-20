@@ -4,12 +4,14 @@ import Mode from 'frontmatter-markdown-loader/mode'
 // markdown configuration
 import MarkdownIt from 'markdown-it'
 import mia from 'markdown-it-anchor'
+import dl from 'markdown-it-deflist'
 
 const md = new MarkdownIt({
   html: true,
   typographer: true
 })
 md.use(mia)
+md.use(dl)
 
 // list of pages
 import fs from 'fs'

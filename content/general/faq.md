@@ -1,5 +1,6 @@
 ---
 title: Frequently Asked Questions
+lastUpdated: 2020-03-20
 slug: faq
 ---
 

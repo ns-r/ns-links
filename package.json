@@ -17,6 +17,7 @@
     "js-yaml-loader": "^1.2.2",
     "markdown-it": "^10.0.0",
     "markdown-it-anchor": "^5.2.5",
+    "markdown-it-deflist": "^2.0.3",
     "nuxt": "^2.0.0",
     "vue-template-compiler": "^2.6.11",
     "yaml": "^1.8.2"
