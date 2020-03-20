@@ -6,12 +6,14 @@ list:
   - name: General
     slug: general
     pages:
+      - faq
       - commands
       - ranks
       - free-time
   - name: BMT
     slug: bmt
     pages:
+      - enlistment-tips
       - sar21
       - hg
       - cqb

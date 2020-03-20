@@ -17,5 +17,9 @@ If you want to learn programming, here are some great YouTube channels to follow
 - [DesignCourse](https://www.youtube.com/user/DesignCourse), for web development (Vue, Angular, React, ... basically anything web-related)
 - [Traversy Media](https://www.youtube.com/user/TechGuyWeb), for everything 
 
+## Catch up on reading
+
+Do take a few books, especially if you're in an 8-5 stay-in vocation.
+
 ## Movies, TV shows
 This is probably the first thing you've thought of. Wherever possible, download your movies or shows offline so you don't waste too much data.
