@@ -4,13 +4,6 @@ slug: ranks
 lastUpdated: 2020-03-20
 ---
 
-<style>
-  img {
-    height: 100px;
-  }
-</style>
-
-
 <Alert :incomplete="true" />
 
 <Alert type='error'>This page uses images from a third-party source</Alert>
@@ -21,58 +14,80 @@ lastUpdated: 2020-03-20
 | -- | -- | -- | -- |
 | | Recruit | REC | |
 | | Private | PVT |  |
-| ![LCP](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-lance-corporal.png) | Lance Corporal | LCP | |
-| ![CPL](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-corporal.png) | Corporal | CPL | Corporal |
-| ![CFC](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-corporal-first-class.png) | Corporal First Class | CFC | Corporal First Class |
+| <ImageComp :rank="true" path="lance-corporal" /> | Lance Corporal | LCP | |
+| <ImageComp :rank="true" path="corporal" /> | Corporal | CPL | Corporal | -->
+| <ImageComp :rank="true" path="corporal-first-class" /> | Corporal First Class | CFC | Corporal First Class |
 
 ## Specialists
 
 | Symbol | Rank | Abbr | Address |
 | -- | -- | -- | -- |
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-specialist-cadet.png) | Specialist Cadet | SCT |  |
-| ![3SG](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-3rd-sergeant.png) | Third Sergeant | 3SG | Sergeant |
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-2nd-sergeant.png) | Second Sergeant | 2SG | Sergeant |
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-1st-sergeant.png) | First Sergeant | 1SG | Sergeant |
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-staff-sergeant.png) | Staff Sergeant | SSG | Staff |
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-master-sergeant.png) | Master Sergeant | MSG | Master |
+| <ImageComp :rank="true" path="specialist-cadet" /> | Specialist Cadet | SCT |  |
+| <ImageComp :rank="true" path="3rd-sergeant" /> | Third Sergeant | 3SG | Sergeant |
+| <ImageComp :rank="true" path="2nd-sergeant" /> | Second Sergeant | 2SG | Sergeant |
+| <ImageComp :rank="true" path="1st-sergeant" /> | First Sergeant | 1SG | Sergeant |
+| <ImageComp :rank="true" path="staff-sergeant" /> | Staff Sergeant | SSG | Staff |
+| <ImageComp :rank="true" path="3rd-sergeant" /> | Master Sergeant | MSG | Master |
 
 ## Warrant Officers
 
 | Symbol | Rank | Abbr | Address |
 | -- | -- | -- | -- |
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-3rd-warrant-officer.png) | Third Warrant Officer | 3WO | Encik
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-2nd-warrant-officer.png) | Second Warrant Officer | 2WO | Encik
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-1st-warrant-officer.png) | First Warrant Officer | 1WO | Encik
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-master-warrant-officer.png) | Master Warrant Officer | MWO | Encik
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-senior-warrant-officer.png) | Senior Warrant Officer | SWO | Encik
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-chief-warrant-officer.png) | Chief Warrant Officer | CWO | Encik
+| <ImageComp :rank="true" path="3rd-warrant-officer" /> | Third Warrant Officer | 3WO | Encik
+| <ImageComp :rank="true" path="2nd-warrant-officer" /> | Second Warrant Officer | 2WO | Encik
+| <ImageComp :rank="true" path="1st-warrant-officer" /> | First Warrant Officer | 1WO | Encik
+| <ImageComp :rank="true" path="master-warrant-officer" /> | Master Warrant Officer | MWO | Encik
+| <ImageComp :rank="true" path="senior-warrant-officer" />| Senior Warrant Officer | SWO | Encik
+| <ImageComp :rank="true" path="chief-warrant-officer" /> | Chief Warrant Officer | CWO | Encik
 
 ## Junior Officers
 
 | Symbol | Rank | Abbr | Address |
 | -- | -- | -- | -- |
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-officer-cadet-common-leadership-term.png) | Officers Cadet, Common Leadership Term | OCT |
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-officer-cadet-service-term.png) | Officers Cadet, Service Term | OCT |
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-officer-cadet-professional-term.png) | Officers Cadet, Profession Term | OCT |
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-2nd-lieutenant.png) | Second Lieutenant | 2LT | Sir
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-lieutenant.png) | Lieutenant | LTA | Sir
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-captain.png) | Captain | CAP | America
+| <ImageComp :rank="true" path="officer-cadet-common-leadership-term" /> | Officers Cadet, Common Leadership Term | OCT |
+| <ImageComp :rank="true" path="officer-cadet-service-term" /> | Officers Cadet, Service Term | OCT |
+| <ImageComp :rank="true" path="officer-cadet-professional-term" /> | Officers Cadet, Profession Term | OCT |
+| <ImageComp :rank="true" path="2nd-lieutenant" /> | Second Lieutenant | 2LT | Sir
+| <ImageComp :rank="true" path="lieutenant" /> | Lieutenant | LTA | Sir
+| <ImageComp :rank="true" path="captain" /> | Captain | CAP | America
 
 ## Senior Officers
 
 | Symbol | Rank | Abbr | Address |
 | -- | -- | -- | -- |
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-major.png) | Major | MAJ | Sir
-| ![rank](https://www.cmpb.gov.sg/web/cmpbThemeStatic/themes/cmpbTheme/uploads/2015/12/army-lieutenant-colonel.png) | Lieutenant Colonel | LTC | Sir
-| | Senior Lieutenant Colonel | SLTC | Sir
-| | Colonel | COL | Sir
+| <ImageComp :rank="true" path="major" /> | Major | MAJ | Sir
+| <ImageComp :rank="true" path="lieutenant-colonel" />| Lieutenant Colonel | LTC | Sir
+| <ImageComp :rank="true" path="senior-lieutenant-colonel" /> | Senior Lieutenant Colonel | SLTC | Sir
+| <ImageComp :rank="true" path="colonel" /> | Colonel | COL | Sir
 
 ## Generals
 
 | Symbol | Rank | Abbr | Address |
 | -- | -- | -- | -- |
-| | Brigadier General | BG | Sir |
-| | Major General | MG | Sir |
-| | Lieutenant General | LG | Sir |
+| <ImageComp :rank="true" path="brigadier-general" /> | Brigadier General | BG | Sir |
+| <ImageComp :rank="true" path="major-general" /> | Major General | MG | Sir |
+| <ImageComp :rank="true" path="lieutenant-general" /> | Lieutenant General | LG | Sir |
 
 ## Military Domain Experts
+
+| Symbol | Rank | Abbr | Address |
+| -- | -- | -- | -- |
+| <ImageComp :rank="true" path="military-expert-1-trainee" /> | Military Expert 1 Trainee | ME1(T) |
+| <ImageComp :rank="true" path="military-expert-4-trainee" /> | Military Expert 4 Trainee | ME4(T) |
+| <ImageComp :rank="true" path="military-expert-4-apprentice" /> | Military Expert 4 Apprentice | ME4(A) |
+| <ImageComp :rank="true" path="military-expert-1" /> | Military Expert 1 | ME1 |
+| <ImageComp :rank="true" path="military-expert-2" /> | Military Expert 2 | ME2 |
+| <ImageComp :rank="true" path="military-expert-3" /> | Military Expert 3 | ME3 |
+| <ImageComp :rank="true" path="military-expert-4" /> | Military Expert 4 | ME4 |
+| <ImageComp :rank="true" path="military-expert-5" /> | Military Expert 5 | ME5 |
+| <ImageComp :rank="true" path="military-expert-6" /> | Military Expert 6 | ME6 |
+| <ImageComp :rank="true" path="military-expert-7" /> | Military Expert 7 | ME7 |
+| <ImageComp :rank="true" path="military-expert-8" /> | Military Expert 8 | ME8 |
+
+| Symbol | Rank | Abbr | Address |
+| -- | -- | -- | -- |
+| <ImageComp :rank="true" path="saf-volunteer-trainee" /> | SAF Voluneteer (Trainee) | SV(T) |
+| <ImageComp :rank="true" path="saf-volunteer-1" /> | SAF Voluneteer 1 | SV1 |
+| <ImageComp :rank="true" path="saf-volunteer-2" /> | SAF Voluneteer 2 | SV2 |
+| <ImageComp :rank="true" path="saf-volunteer-3" /> | SAF Voluneteer 3 | SV3 |
+| <ImageComp :rank="true" path="saf-volunteer-4" /> | SAF Voluneteer 4 | SV4 |
