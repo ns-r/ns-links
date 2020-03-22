@@ -1,24 +1,26 @@
-# 🇸🇬 NS Links
+# [:singapore: NS Links](https://national-service.now.sh/)
+
 > Links and resources to help people serving National Service in Singapore.
 
-## Gallery (WIP)
+## :fireworks: Gallery (WIP)
 ![desktop view](./readme-images/desktop-view.png)
 
 ## Built with
-- Nuxt ~~Saber~~
+- Nuxt
 - Vue
 - SCSS
 
+
 All the content can be found in `pages/index.md`. The links are in the markdown-link format, along with extra styling to make the unordered list look like a button group.
 
-## Development features
+## :hammer_and_wrench: Development features
 ## Features
 - [x] Create `siteConfig.yml` for site metadata
 - [ ] Use a single YAML plugin
 - [ ] Set up pre-rendering correctly
 
-## Contribution
-### Adding a link
+## :pencil2: Contribution
+### :link: Adding a link
 All links will show up [here](https://national-service.now.sh/). To add a link, you can either message me on reddit ([u/themindstorm](https://www.reddit.com/user/themindstorm)), or create an issue/pull request here if you have the technical knowledge.
 
 All guides go in `content/index.md`, in the markdown links format. For example, if I want to add the website "https://www.example.com" under the category "General", sub-category "Free time", I will do it like so:
@@ -34,7 +36,7 @@ All guides go in `content/index.md`, in the markdown links format. For example, 
 Change `LINK DESCRIPTION` to an appropriate description.
 
 
-### Adding a guide
+### :page_facing_up: Adding a guide
 All guides show up All links will show up [here](https://national-service.now.sh/list). If you do not know you to use Git/GitHub and markdown, you can message me on Reddit [here](https://www.reddit.com/user/themindstorm). Any information in the guide must be **non-confidential**.
 
 First, look for your category in `siteConfig.yml`. Each category has a `name` and `slug`. If the category is not there, add it like so:
