@@ -35,7 +35,7 @@ export default {
 // style for grid (<main>)
 main {
   display: grid;
-  // grid-template-columns: 1fr 250px;
+  grid-template-columns: 1fr 250px;
   grid-gap: calc(1.7 * var(--main-padding));
 
   padding: var(--main-padding) 5%;
