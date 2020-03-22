@@ -23,6 +23,7 @@
     "yaml": "^1.8.2"
   },
   "devDependencies": {
+    "@nuxtjs/google-analytics": "^2.2.3",
     "@nuxtjs/style-resources": "^1.0.0",
     "node-sass": "^4.13.1",
     "pug": "^2.0.3",
