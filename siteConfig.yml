@@ -11,6 +11,7 @@ list:
       - commands
       - ranks
       - free-time
+      - songs
   - name: BMT
     slug: bmt
     pages:
