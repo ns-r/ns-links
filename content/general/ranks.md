@@ -4,14 +4,16 @@ slug: ranks
 lastUpdated: 2020-03-20
 ---
 
-<Alert :incomplete="true" />
+<!-- <Alert :incomplete="true" /> -->
 
-<Alert type='error'>This page uses images from a third-party source</Alert>
+
+<!-- <Alert type='error'>This page uses images from a third-party source</Alert> -->
+
 
 ## Enlistees
 
-| Symbol | Rank | Abbr | Address | Pay (S$) |
-| -- | -- | -- | -- | -- |
+| Symbol | Rank | Abbr | Address | Pay (S$) | 
+| -- | -- | -- | -- | -- | 
 | | Recruit | REC | | 630 |
 | | Private | PVT |  | 630 |
 | <ImageComp :rank="true" path="lance-corporal" /> | Lance Corporal | LCP | | 650 |
@@ -68,7 +70,8 @@ lastUpdated: 2020-03-20
 | <ImageComp :rank="true" path="major-general" /> | Major General | MG | Sir |
 | <ImageComp :rank="true" path="lieutenant-general" /> | Lieutenant General | LG | Sir |
 
-## Military Domain Experts
+<!-- ## Military Domain Experts -->
+## MDEs
 
 | Symbol | Rank | Abbr | Equivalent rank |
 | -- | -- | -- | -- |
@@ -85,7 +88,7 @@ lastUpdated: 2020-03-20
 | <ImageComp :rank="true" path="military-expert-8" /> | Military Expert 8 | ME8 | BG |
 
 
-# SAFVC Voluneteers
+## SAFVC Voluneteers
 
 | Symbol | Rank | Abbr | 
 | -- | -- | -- | 
