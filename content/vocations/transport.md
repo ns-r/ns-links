@@ -52,7 +52,7 @@ Four cardinal sins:
 3. Unauthorized driving
 4. Reversing without care
 
-## TO rights
+### TO rights
 - Do not move vehicle if you are tired or unwell.
 - Turn down in between details not in accordance to the authorised indent.
 - Not to move the vehicle if vehicle commander or passenger are not adhering to safety discipline rules (seat belt, safety strap, smoking, rowdy behaviour, etc).
