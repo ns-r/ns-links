@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BackButton to="/list">guides</BackButton>
+    <BackButton to="/">guides</BackButton>
     <h1>{{ title }}</h1>
     <!-- <client-only> -->
     <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
@@ -56,6 +56,7 @@ export default {
   },
   mounted() {
     // this.body
+    this.$store.commit('toc/enableToc')
     this.$store.commit("toc/setBody", this.body);
   },
   head() {

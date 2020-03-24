@@ -13,7 +13,7 @@ This will be used for the
             nuxt
       aside
         .wrapper
-          TOC
+          TOC(v-if="!$store.state.toc.disabled")
           Links
 </template>
 

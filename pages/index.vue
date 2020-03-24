@@ -1,75 +1,90 @@
-<template lang='pug'>
+// page that shows a list of resources
+<template lang="pug">
   div
-    h1 {{ this.siteConfig.title }}
-    //- TODO: put global site description here
-    p {{ this.siteConfig.desc }}
-    p
-      nuxt-link(to='/list').button.black Written guides
+    //- BackButton(to="/") links
+    h1 Guides
+    //- p {{ list }}
+    div(v-for='cat in list' v-bind:key='cat.slug')
+      h2(:id='cat.slug') {{ cat.name }}
+      ul
+        li(v-for='page in cat.pages' v-bind:key='page.slug')
+          nuxt-link(:to=" '/' + cat.slug + '/' + page.slug") {{ page.title }}
 
-    .markdown-links-content
-      markdown
 </template>
 
 <script>
-import markdownContent from "@/content/index.md";
+import BackButton from "@/components/backButton.vue";
 
 export default {
-  components: {
-    markdown: markdownContent.vue.component
+  components: { BackButton },
+  mounted() {
+    this.$store.commit('toc/disableToc')
   },
   head() {
     return {
-      title: this.siteConfig.title,
-      titleTemplate: '%s'
+      title: "Guides"
     }
   },
-  mounted() {
-    // markdownContent.body
-    this.$store.commit('toc/setBody', markdownContent.body)
-    // console.log(this.$store.state.toc.markdownBody)
+  async asyncData({ params, app }) {
+    // if (process.server) {
+    // const path = require("path");
+    // const fs = require("fs");
+    // const YAML = require("YAML");
+
+    // var p = process.cwd();
+    // var file = fs.readFileSync(p + "/content/list.yml", "utf8");
+
+    // var catList = YAML.parse(file).list;
+    // console.log(app.siteConfig.list)
+    // const catList = (await import("~/content/list.yml")).list;
+    const catList = app.siteConfig.list
+
+    var newCatList = [];
+
+    catList.forEach(cat => {
+      var newCatObject = {
+        name: cat.name,
+        slug: cat.slug,
+        pages: []
+      };
+
+      cat.pages.forEach(async page => {
+        // async import the markdown file just to get the nam
+        const markdownFileContent = await import(
+          `~/content/${cat.slug}/${page}.md`
+        );
+
+        newCatObject.pages.push({
+          slug: page,
+          title: markdownFileContent.attributes.title,
+
+          // TODO: add excerpt
+          excerpt: ""
+        });
+      });
+      newCatList.push(newCatObject);
+    });
+
+    return {
+      list: newCatList
+    };
+    // }
+
+    // });
+
+    // return {
+    //   list: newCatList
+    // };
   }
 };
 </script>
 
-// this cannot be scoped because "markdown" is a component
-<style lang="scss" >
-.button {
-  @include button
-}
-.markdown-links-content {
-  ul {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
+<style lang="scss" scoped>
+ul {
+  // nicer list
+  @include a-list;
 
-    li {
-      @include button;
-
-      // // by default buttons are bold, but these should not be bold
-      // font-weight: normal;
-
-      // inline button group style
-      margin-right: var(--dense-padding);
-
-      // seems that there's some default margin right (?)
-      // so increase margin-bottomt to match
-      margin-bottom: calc(1.8 * var(--dense-padding));
-
-      &:hover {
-        // highlight on hover
-        border: 1px solid blue;
-        color: blue;
-
-        // desktop only
-        @include not-mobile-screen {
-          // increase border thickness
-          border: 2px solid blue;
-
-          // increase side padding
-          padding: var(--dense-padding) calc(3 * var(--dense-padding));
-        }
-      }
-    }
-  }
+  // reset font size
+  font-size: unset;
 }
 </style>
