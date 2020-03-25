@@ -13,6 +13,8 @@ lastUpdated: 2020-03-20
 - Toilet roles: 2 should be enough for the confinement period
 - Wipeable marker: this will make writing and cleaning your RAC form easier
 - 2 in 1 shower gel
+- Coins (of they let you use the vending machines)
+- Wet wipes/wet tissues for area cleaning
 
 ## Things to buy at eMarts
 
