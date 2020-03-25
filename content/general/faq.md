@@ -5,7 +5,7 @@ slug: faq
 ---
 
 ## I'm enlisting at this time and this date. Is this a mono-intake?
-Unfortunately, no one really knows. If you really want to ask, search for the "**Enlistment**" thread on the [NS Subreddit](https://reddit.com/r/nationalservicesg). Do **not** create a new post, just look for the pinned post with the flair "**Enlistment**".
+Unfortunately, no one really knows, as this is **confidential information**. If you want to ask any other questions relating to enlistment, search for the "**Enlistment**" thread on the [NS Subreddit](https://reddit.com/r/nationalservicesg). Do **not** create a new post, just look for the pinned post with the flair "**Enlistment**".
 
 ## What should I bring for BMT?
 Check out <nuxt-link to='/bmt/enlistment-tips'>Enlistment Tips</nuxt-link>.
