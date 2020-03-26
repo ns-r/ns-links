@@ -1,10 +1,9 @@
 <template lang='pug'>
   div
-    h1 {{ this.siteConfig.title }}
-    //- TODO: put global site description here
-    p {{ this.siteConfig.desc }}
-    p
-      nuxt-link(to='/').button.black Written guides
+    BackButton(to="/") back
+    h1 Links
+    //- p
+    //-   nuxt-link(to='/').button.black Written guides
 
     .markdown-links-content
       markdown
@@ -12,9 +11,11 @@
 
 <script>
 import markdownContent from "@/content/index.md";
+import BackButton from "@/components/backButton.vue";
 
 export default {
   components: {
+    BackButton,
     markdown: markdownContent.vue.component
   },
   head() {
