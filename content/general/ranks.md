@@ -1,7 +1,7 @@
 ---
-title: Ranks and Pay
+title: Ranks and Allowance
 slug: ranks
-lastUpdated: 2020-03-20
+lastUpdated: 2020-03-26
 ---
 
 <!-- <Alert :incomplete="true" /> -->
@@ -12,17 +12,17 @@ lastUpdated: 2020-03-20
 
 ## Enlistees
 
-| Symbol | Rank | Abbr | Address | Pay (S$) | 
+| Symbol | Rank | Abbr | Address | Minimum Allowance (S$) | 
 | -- | -- | -- | -- | -- | 
 | | Recruit | REC | | 630 |
-| | Private | PVT |  | 630 |
+| | Private | PTE |  | 630 |
 | <ImageComp :rank="true" path="lance-corporal" /> | Lance Corporal | LCP | | 650 |
 | <ImageComp :rank="true" path="corporal" /> | Corporal | CPL | Corporal | 700 |
 | <ImageComp :rank="true" path="corporal-first-class" /> | Corporal First Class | CFC | Corporal First Class | 740 |
 
 ## Specialists
 
-| Symbol | Rank | Abbr | Address | Pay (S$) |
+| Symbol | Rank | Abbr | Address | Minimum Allowance (S$) |
 | -- | -- | -- | -- | -- |
 | <ImageComp :rank="true" path="specialist-cadet" /> | Specialist Cadet | SCT |  | 720 |
 | <ImageComp :rank="true" path="3rd-sergeant" /> | Third Sergeant | 3SG | Sergeant | 950 |
@@ -40,18 +40,18 @@ lastUpdated: 2020-03-20
 | <ImageComp :rank="true" path="1st-warrant-officer" /> | First Warrant Officer | 1WO | Encik
 | <ImageComp :rank="true" path="master-warrant-officer" /> | Master Warrant Officer | MWO | Encik
 | <ImageComp :rank="true" path="senior-warrant-officer" />| Senior Warrant Officer | SWO | Encik
-| <ImageComp :rank="true" path="chief-warrant-officer" /> | Chief Warrant Officer | CWO | Encik
+| <ImageComp :rank="true" path="chief-warrant-officer" /> | Chief Warrant Officer | CWO | Sir
 
 ## Junior Officers
 
-| Symbol | Rank | Abbr | Address | Pay (S$) |
+| Symbol | Rank | Abbr | Address | Minimum Allowance (S$) |
 | -- | -- | -- | -- | -- |
 | <ImageComp :rank="true" path="officer-cadet-common-leadership-term" /> | Officers Cadet, Common Leadership Term | OCT | | 910 |
 | <ImageComp :rank="true" path="officer-cadet-service-term" /> | Officers Cadet, Service Term | OCT | | 910 |
-| <ImageComp :rank="true" path="officer-cadet-professional-term" /> | Officers Cadet, Profession Term | OCT | | 910 |
+| <ImageComp :rank="true" path="officer-cadet-professional-term" /> | Officers Cadet, Professional Term | OCT | | 910 |
 | <ImageComp :rank="true" path="2nd-lieutenant" /> | Second Lieutenant | 2LT | Sir | 1150 |
 | <ImageComp :rank="true" path="lieutenant" /> | Lieutenant | LTA | Sir | 1330 |
-| <ImageComp :rank="true" path="captain" /> | Captain | CAP | America
+| <ImageComp :rank="true" path="captain" /> | Captain | CPT | Sir
 
 ## Senior Officers
 
@@ -75,9 +75,9 @@ lastUpdated: 2020-03-20
 
 | Symbol | Rank | Abbr | Equivalent rank |
 | -- | -- | -- | -- |
-| <ImageComp :rank="true" path="military-expert-1-trainee" /> | Military Expert 1 Trainee | ME1(T) | 
-| <ImageComp :rank="true" path="military-expert-4-trainee" /> | Military Expert 4 Trainee | ME4(T) | 
-| <ImageComp :rank="true" path="military-expert-4-apprentice" /> | Military Expert 4 Apprentice | ME4(A) |
+| <ImageComp :rank="true" path="military-expert-1-trainee" /> | Military Expert 1 Trainee | ME1(T) | SCT |
+| <ImageComp :rank="true" path="military-expert-4-trainee" /> | Military Expert 4 Trainee | ME4(T) | OCT |
+| <ImageComp :rank="true" path="military-expert-4-apprentice" /> | Military Expert 4 Apprentice | ME4(A) | 2LT |
 | <ImageComp :rank="true" path="military-expert-1" /> | Military Expert 1 | ME1 | 2SG |
 | <ImageComp :rank="true" path="military-expert-2" /> | Military Expert 2 | ME2 | MSG |
 | <ImageComp :rank="true" path="military-expert-3" /> | Military Expert 3 | ME3 | 1WO |
