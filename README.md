@@ -1,6 +1,11 @@
 <!-- ![Logo](./assets/svg/sar21.svg) -->
 
-<img align="center" width="100" height="100" src="./assets/svg/sar21.svg">
+<!-- <img align="center" width="100" height="100" src="./assets/svg/sar21.svg"> -->
+
+<p align="center">
+  <img align="center" width="300" src="./assets/svg/sar21.svg">
+
+</p>
 
 <h1 align="center">
   <a href="https://national-service.now.sh/">NS Resources</a>
