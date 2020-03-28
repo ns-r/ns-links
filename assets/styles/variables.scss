@@ -20,12 +20,18 @@
   --dense-padding: 0.3em;
   --extra-padding: 1.3em;
 
+  --side-padding: calc(0.7* var(--main-padding)) 13%;
+  @include mobile-screen {
+    --side-padding: calc(0.5* var(--main-padding)) 5%;
+  }
+
   --border-radius: 0.25em;
 
   // space above, and below back button
   --heading-margin: 1.2rem;
 
   --font-color: rgba(0, 0, 0, 0.822);
+  --font-color-light: rgba(0, 0, 0, 0.622);
 
   // for sidebar items, footer
   --container-color: rgba(0, 0,0, 0.04);

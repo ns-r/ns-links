@@ -1,10 +1,9 @@
 // page that shows a list of resources
 <template lang="pug">
   div
-    //- BackButton(to="/") links
     h1 {{ this.siteConfig.title }}
-    //- TODO: put global site description here
     p {{ this.siteConfig.desc }}
+
     div(v-for='cat in list' v-bind:key='cat.slug')
       h2(:id='cat.slug') {{ cat.name }}
       ul
