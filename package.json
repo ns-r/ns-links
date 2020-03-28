@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/redirect-module": "^0.3.1",
+    "@nuxtjs/sitemap": "^2.1.0",
     "@vue/component-compiler-utils": "^3.1.1",
     "frontmatter-markdown-loader": "^3.2.1",
     "js-yaml-loader": "^1.2.2",

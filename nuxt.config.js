@@ -86,13 +86,24 @@ export default {
 
   // Nuxt.js modules
 
-  modules: ['@nuxtjs/style-resources', '@nuxtjs/redirect-module'],
+  modules: ['@nuxtjs/style-resources', '@nuxtjs/redirect-module', '@nuxtjs/sitemap'],
   styleResources: {
     scss: [
       'assets/styles/variables.scss',
       'assets/mixins/button.scss',
       'assets/mixins/list.scss',
       'assets/mixins/a.scss',
+    ]
+  },
+
+  sitemap: {
+    hostname: 'https://national-service.now.sh',
+    gzip: true,
+    routes: [
+      '/',
+      '/links/',
+      '/about/',
+      ...routes
     ]
   },
 
