@@ -36,16 +36,33 @@ OCS
 
 ## Words
 
+Kenna
+  ~ To be subject to harsh or painful treatment.
+
 Bobo
   ~ The recruit who cannot aim (you'll hear this term at the range).
 
 Wayang
   ~ (help)
+  
+Saikang
+  ~ (help)
+  
+Rabak
+  ~ (help)
+  
+### English
+
+Turnout
+  ~ (help)
 
 ## Phrases
 
 Act blur, live longer
-  ~ (help)
+  ~ When someone pretends they don't know anything and (help)
+  
+You think, I thought, who confirm?
+  ~ The answer Enciks give when you say "I think ...".
 
 
 ## Medical
