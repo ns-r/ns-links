@@ -8,10 +8,11 @@ description: All about the Transport Operator and Supervisor vocations
 
 ## Transport Operator
 
-If you're posting order says **TPT OPR**, you are a transport operator. Unless you have OOCed from BMT, you will be temporarily posted to a unit for a **3-week UIP**, after which you will get posted to your **transport node** where you will spend the rest of your NS.
+The posting order will say **TPT OPR**. All NSFs with this posting order attend the 3-week **UIP**, after which they will get posted to a **transport node**, where they will spend the rest of their NS life.
+
 
 ### UIP (unit induction program)
-The following activities will happen in you 3-week UIP:
+The following activities will take place over a period of 3 weeks:
 
 
 1. **Vehicle camoflouge**
@@ -30,15 +31,14 @@ The following activities will happen in you 3-week UIP:
       - Theory lessons on using the MOPP suit
       - Suiting up in MOPP4 and doing 5BX in a room full of tear gas
 
-Apart from the above, you will have PT thrice a week, and an IPPT on the last week.
+Apart from the above, there's PT thrice a week, and an IPPT on the last week.
 
-The UIP is **stay-in**, without nights out. You will likely have to march to the cookhouse and back.
+The UIP is **stay-in**, without nights out. Marching is required.
 
 ### Unit
 
-After the UIP, you are posted to your unit. If you're in Transport Hub East (a transport battalion), you can be posted to either Seletar camp, Selarang camp, Bedok camp, Nee Soon camp, or Tekong (BMTC). Similarly, there are 3 other transport battalions.
+NSFs get posted to a unit (**transport node**) after the UIP. Transport units give **nights out** every Tuesday and Thursday. Once in unit, they will be put on the waitlist for the driving course.
 
-You will still stay-in, but you will **nights out** on Tuesdays and Thursdays.
 
 ### Driving course
 The driving course works on a slot-by-slot basis. If there are slots open, you will be sent for the driving course. There is always time between when you get posted to your unit and when you get a slot for your driving course. If you're lucky, you'll get the driving course within a month of your being posted, but be prepared to wait. Note that having pending medical issues, medical appointments, temporary down PES may delay your entry to the driving course.
