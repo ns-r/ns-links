@@ -44,6 +44,9 @@ links:
   - name: NS subreddit
     class: red
     url: https://www.reddit.com/r/nationalservicesg
+  - name: NS discord
+    class: black
+    url: https://discord.gg/jZzsPGS
   - name: NS Portal
     class: green
     url: https://www.ns.sg/nsp/portal/site/mindef-nsf

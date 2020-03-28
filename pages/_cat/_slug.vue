@@ -61,7 +61,14 @@ export default {
   },
   head() {
     return {
-      title: `${this.title}`
+      title: `${this.title}`,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: `${this.description}`
+        }
+      ]
     };
   },
   async asyncData({ params, app }) {
@@ -91,6 +98,7 @@ export default {
     return {
       title: markdownFileContent.attributes.title,
       lastUpdated: markdownFileContent.attributes.lastUpdated,
+      description: markdownFileContent.attributes.description,
       body: markdownFileContent.body,
       footerLinks: footerLinks,
 
