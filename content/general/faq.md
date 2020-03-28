@@ -9,6 +9,8 @@ Unfortunately, no one really knows, as this is **confidential information**. If 
 
 You can find the latest enlistment megathread [here](https://www.reddit.com/r/NationalServiceSG/search?q=flair_name%3A%22Enlistment%22&restrict_sr=1&sort=new).
 
+If you have any other issues, or want to confirm any details, contact CMPB. Find CMPB's contact page [here](https://www.cmpb.gov.sg/web/portal/cmpb/home/about-us/contact-us).
+
 ## What should I bring for BMT?
 Check out <nuxt-link to='/bmt/enlistment-tips'>Enlistment Tips</nuxt-link>.
 
