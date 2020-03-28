@@ -20,8 +20,7 @@ export default {
   },
   head() {
     return {
-      title: this.siteConfig.title,
-      titleTemplate: '%s'
+      title: "Links",
     }
   },
   mounted() {

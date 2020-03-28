@@ -26,9 +26,9 @@ footer {
   }
 
   @import "~/assets/styles/list.scss";
+  @import "~/assets/mixins/a.scss";
 
   .button-list {
-    @include a-list;
   }
   // *:last-child {
   //   margin-bottom: 0;

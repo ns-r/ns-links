@@ -22,7 +22,7 @@ export default {
   },
   head() {
     return {
-      title: "Guides"
+      titleTemplate: '%s'
     };
   },
   async asyncData({ params, app }) {
@@ -81,12 +81,4 @@ export default {
 
 <style lang="scss" scoped>
 @import "~/assets/styles/list.scss";
-
-div {
-  // nicer list
-
-  @include a-list;
-  // reset font size
-  font-size: unset;
-}
 </style>
