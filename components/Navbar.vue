@@ -1,6 +1,6 @@
 <template lang="pug">
   nav
-    .logo
+    nuxt-link(to="/").logo
       img(src="~/assets/svg/sar21.svg")
       //- .desktop-title {{ this.siteConfig.title }}
       //- .mobile-title {{ this.siteConfig.shortTitle }}
@@ -29,6 +29,7 @@ nav {
 
   background-color: white;
   opacity: 0.9;
+  backdrop-filter: blur(5px);
 
   .logo {
     display: flex;

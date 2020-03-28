@@ -1,9 +1,11 @@
 <template lang="pug">
   footer
     h3 Other pages
-    .list
-      div(v-for="link in this.links" v-bind:key="link.slug") 
-        nuxt-link(:to="'/'+catSlug+'/'+link.slug+'/'") {{ link.title }}
+    .button-list
+        nuxt-link.page-button(
+          v-for="link in this.links" v-bind:key="link.slug"
+          :to="'/'+catSlug+'/'+link.slug+'/'"
+        ) {{ link.title }}
 </template>
 
 <script>
@@ -20,23 +22,14 @@ footer {
   background-color: var(--container-color);
 
   h3 {
-    margin-top: 0
+    margin-top: 0;
   }
 
-  .list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(7rem, 1fr));;
+  @import "~/assets/styles/list.scss";
 
-    div {
-      a {
-        @include reset-a;
-        &.nuxt-link-active {
-          font-weight: bold;
-        }
-      }
-    }
+  .button-list {
+    @include a-list;
   }
-
   // *:last-child {
   //   margin-bottom: 0;
   // }

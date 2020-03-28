@@ -2,6 +2,10 @@
   .sidebar-item
     h2 Links
     .links-list
+      a(
+        v-for="eachLink in this.siteConfig.links" v-bind:key="eachLink.url"
+        :href="eachLink.url"
+      ) {{ eachLink.name }}
       a(href="https://github.com/themindstorm/ns-links/").black GitHub
       a(href="https://www.reddit.com/r/singapore").red SG subreddit
       a(href="https://www.reddit.com/r/nationalservicesg").red NS subreddit
@@ -23,7 +27,7 @@ h2 {
     width: 100%;
   }
   a + a {
-    margin-top: var(--dense-padding);
+    margin-top: var(--medium-padding);
   }
 }
 </style>

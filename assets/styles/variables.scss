@@ -17,12 +17,13 @@
 // variables
 :root {
   --main-padding: 1em;
+  --medium-padding: 0.5em;
   --dense-padding: 0.3em;
   --extra-padding: 1.3em;
 
-  --side-padding: calc(0.7* var(--main-padding)) 13%;
+  --side-padding: calc(1.2* var(--medium-padding)) 13%;
   @include mobile-screen {
-    --side-padding: calc(0.5* var(--main-padding)) 5%;
+    --side-padding: var(--medium-padding) 5%;
   }
 
   --border-radius: 0.25em;
@@ -35,4 +36,5 @@
 
   // for sidebar items, footer
   --container-color: rgba(0, 0,0, 0.04);
+  --page-button-color: rgba(0, 0,0, 0.02);
 }

@@ -35,3 +35,21 @@ list:
     pages:
       - improve
       - contribute
+
+# sidebar links
+links:
+  - name: SG subreddit
+    class: red
+    url: https://www.reddit.com/r/singapore
+  - name: NS subreddit
+    class: red
+    url: https://www.reddit.com/r/nationalservicesg
+  - name: NS Portal
+    class: green
+    url: https://www.ns.sg/nsp/portal/site/mindef-nsf
+  - name: SAF Health
+    class: green
+    link: https://www.safhealth.gov.sg/
+  - name: GitHub
+    class: black
+    url: https://github.com/themindstorm/ns-links/

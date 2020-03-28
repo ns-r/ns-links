@@ -6,24 +6,24 @@
 
     div(v-for='cat in list' v-bind:key='cat.slug')
       h2(:id='cat.slug') {{ cat.name }}
-      ul
-        li(v-for='page in cat.pages' v-bind:key='page.slug')
-          nuxt-link(:to=" '/' + cat.slug + '/' + page.slug") {{ page.title }}
+      .button-list
+        nuxt-link.page-button(
+          v-for='page in cat.pages' v-bind:key='page.slug'
+          :to=" '/' + cat.slug + '/' + page.slug"
+        ) {{ page.title }}
 
 </template>
 
 <script>
-
-
 export default {
-  components: {  },
+  components: {},
   mounted() {
-    this.$store.commit('toc/disableToc')
+    this.$store.commit("toc/disableToc");
   },
   head() {
     return {
       title: "Guides"
-    }
+    };
   },
   async asyncData({ params, app }) {
     // if (process.server) {
@@ -37,7 +37,7 @@ export default {
     // var catList = YAML.parse(file).list;
     // console.log(app.siteConfig.list)
     // const catList = (await import("~/content/list.yml")).list;
-    const catList = app.siteConfig.list
+    const catList = app.siteConfig.list;
 
     var newCatList = [];
 
@@ -80,10 +80,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-ul {
-  // nicer list
-  @include a-list;
+@import "~/assets/styles/list.scss";
 
+div {
+  // nicer list
+
+  @include a-list;
   // reset font size
   font-size: unset;
 }

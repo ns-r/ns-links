@@ -1,0 +1,22 @@
+.button-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: var(--main-padding);
+
+  .page-button {
+    display: block;
+    padding: var(--main-padding);
+
+    background-color: var(--page-button-color);
+    border-radius: var(--border-radius);
+
+
+    &:hover {
+      border: 3px solid var(--font-color);
+    }
+
+    &.nuxt-link-active {
+      border: 4px solid var(--font-color);
+    }
+  }
+}
