@@ -2,6 +2,10 @@
 title: Ranks and Allowance
 slug: ranks
 lastUpdated: 2020-03-26
+
+credits:
+  - archive-reminder
+  - XenonShawn
 ---
 
 <!-- <Alert :incomplete="true" /> -->

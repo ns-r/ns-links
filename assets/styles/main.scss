@@ -38,3 +38,21 @@ dl {
     margin-bottom: var(--main-padding);
   }
 }
+
+
+
+
+.page-end {
+  // background-color: red;
+  font-size: 0.8em;
+
+  .links {
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    color: unset;
+  }
+}

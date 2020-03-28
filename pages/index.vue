@@ -11,6 +11,11 @@
           v-for='page in cat.pages' v-bind:key='page.slug'
           :to=" '/' + cat.slug + '/' + page.slug"
         ) {{ page.title }}
+    
+    footer.page-end
+      .links
+        a(href="https://www.reddit.com/user/themindstorm") Contribute
+        a(href="https://github.com/themindstorm/ns-linkswww.reddit.com/user/themindstorm") Source
 
 </template>
 
@@ -23,7 +28,7 @@ export default {
   head() {
     return {
       title: `${this.siteConfig.title}`,
-      titleTemplate: '%s'
+      titleTemplate: "%s"
     };
   },
   async asyncData({ params, app }) {
@@ -82,4 +87,14 @@ export default {
 
 <style lang="scss" scoped>
 @import "~/assets/styles/list.scss";
+
+footer {
+  margin-top: calc(3* var(--extra-padding));
+  margin-bottom: var(--extra-padding);
+
+  // padding: var(--main-padding);
+  // border-radius: var(--border-radius);
+
+  // background-color: var(--container-color);
+}
 </style>

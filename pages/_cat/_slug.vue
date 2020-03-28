@@ -5,7 +5,7 @@
     <!-- <client-only> -->
     <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
     <!-- </client-only> -->
-    <div class="support">
+    <div class="support page-end">
       <div>Last Updated on {{ readableDate }}</div>
       <div class="links">
         <a
@@ -13,7 +13,7 @@
         >Edit this page on GitHub</a>
         <nuxt-link
           to="/site/improve/"
-        >Help improve this page</nuxt-link>
+        >How to help improve this page</nuxt-link>
       </div>
     </div>
 
@@ -116,17 +116,7 @@ export default {
 @import "@/assets/styles/article.scss";
 
 .support {
-  font-size: 0.8em;
   margin-top: calc(2.5 * var(--heading-margin));
-
-  .links {
-    a {
-      color: unset;
-    }
-
-    display: flex;
-    justify-content: space-between;
-  }
 
   margin-bottom: calc(2.5 * var(--heading-margin));
 }

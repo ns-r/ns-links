@@ -2,6 +2,9 @@
 title: Frequently Asked Questions
 lastUpdated: 2020-03-29
 slug: faq
+
+credits:
+  - archive-reminder
 ---
 
 ## I'm enlisting at this time and this date. Is this a mono-intake?
@@ -10,6 +13,11 @@ Unfortunately, no one really knows, as this is **confidential information**. If 
 You can find the latest enlistment megathread [here](https://www.reddit.com/r/NationalServiceSG/search?q=flair_name%3A%22Enlistment%22&restrict_sr=1&sort=new).
 
 If you have any other issues, or want to confirm any details, contact CMPB. Find CMPB's contact page [here](https://www.cmpb.gov.sg/web/portal/cmpb/home/about-us/contact-us).
+
+## CMPB's website is down. How do I contact them?
+- Hotline (25hr): 1800-367-6767 (1800-eNSNSNS)
+- Hotline international: +65 6567-6767
+- Email: [contact@ns.sg](mailto:contact@ns.sg)
 
 ## What should I bring for BMT?
 Check out <nuxt-link to='/bmt/enlistment-tips'>Enlistment Tips</nuxt-link>.

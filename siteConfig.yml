@@ -8,6 +8,7 @@ list:
     slug: general
     pages:
       - faq
+      - contact
       - lingo
       - commands
       - ranks
