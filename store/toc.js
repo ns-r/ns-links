@@ -4,13 +4,14 @@
 export const state = () => ({
   //this is the markdown body
   body: "",
-  headings: []
+  headings: [],
+  disabled: false,
 })
 
 export const mutations = {
   setBody(state, value) {
     state.body = value
-    
+
     // setting headings
     var lines = state.body.split('\n')
     // reset headings
@@ -36,6 +37,13 @@ export const mutations = {
 
     // console.log("Headings has been set to:")
     // console.log(state.headings)
+  },
+
+  disableToc(state) {
+    state.disabled = true
+  },
+  enableToc(state) {
+    state.disabled = false
   },
 }
 

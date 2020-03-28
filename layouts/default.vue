@@ -6,6 +6,7 @@ This will be used for the
 
 <template lang="pug">
   Root
+    Navbar
     main
       article
         .wrapper
@@ -13,17 +14,19 @@ This will be used for the
             nuxt
       aside
         .wrapper
-          TOC
+          TOC(v-if="!$store.state.toc.disabled")
           Links
 </template>
 
 <script>
 import Root from "@/layouts/root.vue";
+
+import Navbar from "@/components/Navbar.vue";
 import TOC from "@/components/toc.vue";
 import Links from "@/components/Links.vue";
 
 export default {
-  components: { Root, TOC, Links },
+  components: { Root, Navbar, TOC, Links },
 
 };
 </script>
@@ -38,12 +41,13 @@ main {
   grid-template-columns: 1fr 250px;
   grid-gap: calc(1.7 * var(--main-padding));
 
-  padding: var(--main-padding) 5%;
+  // padding: var(--main-padding) 5%;
+  padding: var(--side-padding);
 
   @include not-mobile-screen {
     // this will cause too much side padding in mobile
     // only for descktop v
-    padding: var(--main-padding) 13%;
+    // padding: var(--main-padding) 13%;
 
     // some margin above sidebar so it doesn't go above title
     // this is not required in mobile
@@ -62,18 +66,8 @@ main {
     }
   }
 
-  // reduce padding on side for tablet screen
-  @include tablet-screen {
-    padding: var(--main-padding) 5%;
-  }
-
   @include mobile-screen {
-    padding: var(--main-padding) 5%;
-
     display: block;
-    // grid-template-columns: 1fr;
-    // grid-gap: none;
-
     // hide aside
     aside {
       display: none;

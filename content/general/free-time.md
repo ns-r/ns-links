@@ -1,5 +1,5 @@
 ---
-title: Making use of free time
+title: Free time
 slug: free-time
 lastUpdated: 2020-03-17
 ---

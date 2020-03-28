@@ -38,7 +38,7 @@ export default {
     },
     toTop() {
       if (process.client) {
-        window.scrollTo(0, 0);
+        q
       }
     }
   }

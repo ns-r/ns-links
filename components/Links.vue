@@ -2,11 +2,12 @@
   .sidebar-item
     h2 Links
     .links-list
-      a(href="https://github.com/themindstorm/ns-links/").black GitHub
-      a(href="https://www.reddit.com/r/singapore").red SG subreddit
-      a(href="https://www.reddit.com/r/nationalservicesg").red NS subreddit
-      a(href="https://www.ns.sg/nsp/portal/site/mindef-nsf").green NS Portal
-      a(href="https://www.safhealth.gov.sg/").green SAF Health
+      a(
+        v-for="eachLink in this.siteConfig.links" v-bind:key="eachLink.url"
+        :class="eachLink.class"
+        :href="eachLink.url"
+      ) {{ eachLink.name }}
+
 </template>
 
 <style lang="scss" scoped>
@@ -23,7 +24,7 @@ h2 {
     width: 100%;
   }
   a + a {
-    margin-top: var(--dense-padding);
+    margin-top: var(--medium-padding);
   }
 }
 </style>
