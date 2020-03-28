@@ -1,9 +1,19 @@
-# [:singapore: NS Links](https://national-service.now.sh/)
+<!-- ![Logo](./assets/svg/sar21.svg) -->
+
+<img align="center" width="100" height="100" src="./assets/svg/sar21.svg">
+
+<h1 align="center">
+  <a href="https://national-service.now.sh/">NS Resources</a>
+</h1>
+
+<!-- # [:singapore: NS resources](https://national-service.now.sh/) -->
 
 > Links and resources to help people serving National Service in Singapore.
 
 ## :fireworks: Gallery (WIP)
-![desktop view](./readme-images/desktop-view.png)
+![desktop view](./readme-images/main.png)
+![desktop view](./readme-images/faq.png)
+![desktop view](./readme-images/links.png)
 
 ## Built with
 - Nuxt
