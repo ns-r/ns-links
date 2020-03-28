@@ -10,7 +10,7 @@ lastUpdated: 2020-03-19
 The fieldcamp is the longest, and worst event in BMT. It is a high-key event, so it's required for POP.
 
 ## Duration
-5 days, 4 nights. For the last one night and one day, you will be at the SIT test site.
+5 days, 4 nights; SIT teset on day 5.
 
 ## Schedule
 *Your schedule likely won't be the exact same as this one*

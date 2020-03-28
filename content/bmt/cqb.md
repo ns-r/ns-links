@@ -12,7 +12,7 @@ lastUpdated: 2020-03-17
 The CQB (close quarter battle) lasts 2 days, 1 night.
 
 ## The activity
-It takes place in a simulated urban environment, where you learn basic room clearing. You have to apply camoflouge for this activity.
+Basic room clearing in a simulated urban environment. Camo cream is required.
 
 ## Items required
 ### LBS
