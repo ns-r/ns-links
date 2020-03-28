@@ -18,7 +18,7 @@ Links and resources to help people serving National Service in Singapore.
 ## Built with
 - Nuxt
 - Vue
-- SCSS
+- Pug + SCSS :heart:
 
 
 All the content can be found in `pages/index.md`. The links are in the markdown-link format, along with extra styling to make the unordered list look like a button group.
