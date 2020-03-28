@@ -13,7 +13,10 @@
 
 <!-- # [:singapore: NS resources](https://national-service.now.sh/) -->
 
-> Links and resources to help people serving National Service in Singapore.
+<p align="center"><i>
+Links and resources to help people serving National Service in Singapore.
+
+</i></p>
 
 ## :fireworks: Gallery (WIP)
 ![desktop view](./readme-images/main.png)
