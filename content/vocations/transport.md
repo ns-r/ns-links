@@ -12,26 +12,10 @@ The posting order will say **TPT OPR**. All NSFs with this posting order attend 
 
 
 ### UIP (unit induction program)
-The following activities will take place over a period of 3 weeks:
 
+Certain training is done (removed to ensure no confidential information is leaked).
 
-1. **Vehicle camoflouge**
-
-    This involves learning how to put the camoflouge net over the 5-tonner. It's a 1 day outfield activity.
-
-2.  **Fire movment**
-
-    The same fire movement you did in fieldcamp, except that you start in a 5-tonner.
-
-3. **ATP (advanced train-fire package)**
-4. **Chemical defense**
-
-    This involves
-
-      - Theory lessons on using the MOPP suit
-      - Suiting up in MOPP4 and doing 5BX in a room full of tear gas
-
-Apart from the above, there's PT thrice a week, and an IPPT on the last week.
+There's PT thrice a week, and an IPPT on the last week.
 
 The UIP is **stay-in**, without nights out. Marching is required.
 
