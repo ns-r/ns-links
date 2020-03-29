@@ -1,7 +1,7 @@
 ---
 title: Enlistment Tips
 slug: enlistment-tips
-lastUpdated: 2020-03-20
+lastUpdated: 2020-03-29
 ---
 
 ## Things to take
