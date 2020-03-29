@@ -3,35 +3,23 @@ title: Transport
 slug: transport
 lastUpdated: 2020-03-17
 description: All about the Transport Operator and Supervisor vocations
+
+credits:
+  - u/realbryanpang
+  - u/kena_tekan
 ---
 
 
 ## Transport Operator
 
-The posting order will say **TPT OPR**. All NSFs with this posting order attend the 3-week **UIP**, after which they will get posted to a **transport node**, where they will spend the rest of their NS life.
+All NSFs who get posted to transport will first attend the 3-week **UIP**, after which they will get posted to a **transport node**, where they will spend the rest of their NS life.
 
 
 ### UIP (unit induction program)
-The following activities will take place over a period of 3 weeks:
 
+Certain training is done (removed to ensure no confidential information is leaked).
 
-1. **Vehicle camoflouge**
-
-    This involves learning how to put the camoflouge net over the 5-tonner. It's a 1 day outfield activity.
-
-2.  **Fire movment**
-
-    The same fire movement you did in fieldcamp, except that you start in a 5-tonner.
-
-3. **ATP (advanced train-fire package)**
-4. **Chemical defense**
-
-    This involves
-
-      - Theory lessons on using the MOPP suit
-      - Suiting up in MOPP4 and doing 5BX in a room full of tear gas
-
-Apart from the above, there's PT thrice a week, and an IPPT on the last week.
+There's PT thrice a week, and an IPPT on the last week.
 
 The UIP is **stay-in**, without nights out. Marching is required.
 
@@ -43,11 +31,30 @@ NSFs get posted to a unit (**transport node**) after the UIP. Transport units gi
 ### Driving course
 The driving course works on a slot-by-slot basis. If there are slots open, you will be sent for the driving course. There is always time between when you get posted to your unit and when you get a slot for your driving course. If you're lucky, you'll get the driving course within a month of your being posted, but be prepared to wait. Note that having pending medical issues, medical appointments, temporary down PES may delay your entry to the driving course.
 
-The driving course is now **stay-in**, with nights out on Wednesdays (needs confirmation). You will sleep at Sembawang camp.
+The driving course is now **stay-in**, with nights out on Wednesdays (needs confirmation). You will sleep at Sembawang camp and go to either Kaki-bukit, Sembawang, or Kranji camp every day.
 
+
+### Admin time
+
+Transport operators get a good amount of admin time. On Mondays and Wednesdays, the last parade is usually from 5 to 5:30 PM.
+
+Transport apprentices (those who haven't gone for the dirivng course) pretty much have nothing to do, so they will be free the entire time.
 
 ## Transport Supervisor
-<Alert :incomplete="true" />
+
+Before becoming a transport supervisor, there are a few training phases:
+1. Foundational term
+2. Basic and advanced driving course
+3. On-job training
+4. Ops phase
+5. Posted to SCS
+
+This lasts 9 months.
+
+### Unit
+
+TSs don't drive much; they mostly manage details and logistics.
+
 
 ## Pledge and rights
 ### TO pledge
