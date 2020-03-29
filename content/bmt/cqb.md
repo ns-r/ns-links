@@ -14,7 +14,12 @@ The CQB (close quarter battle) lasts 2 days, 1 night.
 ## The activity
 Basic room clearing in a simulated urban environment. Camo cream is required.
 
-## Items required
+## Tips
+- When it's time to sleep, lay out your ground sheet immediately to get more space. Remember that if you're too close to a wall or corner, there's a chance of seeing more bugs.
+- Plug in your earplugs properly before blanks firing.
+- Always keep track of your RAI. Don't lose them.
+
+<!-- ## Items required
 ### LBS
 - Camo tubes and mirror
 - Earplugs
@@ -46,11 +51,11 @@ Basic room clearing in a simulated urban environment. Camo cream is required.
 - Front
 - Left/right
 - Rear
-- Multiple target
+- Multiple target -->
 
-## Room clearing steps
+<!-- ## Room clearing steps
 **Man 1**: *DOOR LEFT DOOR OPEN*
 
 Man 2 and 3 reapeat.
 
-[Please help me finish this. I forgot.]
+[Please help me finish this. I forgot.] -->

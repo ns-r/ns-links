@@ -12,8 +12,14 @@ The fieldcamp is the longest, and worst event in BMT. It is a high-key event, so
 ## Duration
 5 days, 4 nights; SIT teset on day 5.
 
+## Tips
+- **Defecate one time good one before moving out**: You'll have to defecate in a hole otherwise.
+- **Always keep track of your RAI**: Don't lose them.
+- **Sleep with your boots on**: Take them off and poweder your feet, but remember to put them back on before sleeping.
+
 ## Schedule
 *Your schedule likely won't be the exact same as this one*
+
 ### Day 1
 - Reach the plantation
 - Set up tents
@@ -38,7 +44,7 @@ The fieldcamp is the longest, and worst event in BMT. It is a high-key event, so
 - Clean up eqipment
 - Book out!
 
-## Fire control order
+<!-- ## Fire control order
 
 ### Contacted
 
@@ -73,7 +79,7 @@ IC: IC on! (*No need to say cover me because enemy already down*)
 2. Advance: go forward
 3. Freeze: take a look in front, make sure nothing
 4. Regroup: reorganize, high kneel to next tree
-5. Ace: ammunition, condition, equipment
+5. Ace: ammunition, condition, equipment -->
 
 ## After fieldcamp
 Your BMT should get less stressful post fieldcamp. The only major events left are <nuxt-link to="/bmt/bic">BIC</nuxt-link>, 16K, and 24K, followed by POP!

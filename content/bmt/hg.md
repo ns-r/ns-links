@@ -18,6 +18,9 @@ lastUpdated: 2020-03-19
 
 Around 1 day. If you're luckly, you'll get to return to your coy-line before everyone else. This is only if you're one of the first to throw.
 
+## Tips
+(contribute)
+
 
 ## Video
 

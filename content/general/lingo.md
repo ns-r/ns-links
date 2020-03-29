@@ -36,8 +36,13 @@ OCS
 
 ## Words
 
+### Non-English words
+
 Kenna
   ~ To be subject to harsh or painful treatment.
+
+Semula
+  ~ (A command) Redo what you last did
 
 Bobo
   ~ The recruit who cannot aim (you'll hear this term at the range).
@@ -51,7 +56,10 @@ Saikang
 Rabak
   ~ (help)
   
-### English
+### English words
+
+Drop
+  ~ Go in the pushup position.
 
 Turnout
   ~ (help)
