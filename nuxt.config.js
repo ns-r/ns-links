@@ -63,7 +63,7 @@ export default {
       { hid: 'description', name: 'description', content: siteConfig.desc }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
     ]
   },
   //Customize the progress-bar color

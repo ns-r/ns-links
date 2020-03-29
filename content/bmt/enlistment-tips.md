@@ -1,8 +1,11 @@
 ---
-title: Enlistment Tips
+title: Enlistment
 slug: enlistment-tips
 lastUpdated: 2020-03-29
 ---
+
+## Tips
+- **Get a haircut before enlisting**: You likekly won't get time to shower after they give haircuts. Tekong haircuts aren't fun.
 
 ## Packing guide
 - **Washing powder/liquid detergent**: in BMT, no washing machines provided.
@@ -16,6 +19,7 @@ lastUpdated: 2020-03-29
 - **Coins** (if they let you use the vending machines)
 - **Wet wipes/wet tissues** (for area cleaning and boots polishing)
 - **Nail cutter**
+- **Dark colored spectacles**
 
 ## Things to buy at eMarts
 
