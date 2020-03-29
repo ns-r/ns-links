@@ -8,7 +8,7 @@
       li(v-for='h in headings' v-bind:key='h.text + Math.random()')
         div(v-bind:class="{indent : h.level == 2}")
           nuxt-link(:to="{path:path, hash:h.slug}") {{h.text }}
-      li(v-on:click='toTop()') Back to top
+      //- li(v-on:click='toTop()') Back to top
 </template>
 
 <script>
