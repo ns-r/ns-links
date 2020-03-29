@@ -146,7 +146,7 @@ export default {
   },
 
   generate: {
-    dir: 'public',
+    dir: 'dist',
     routes: routes
   }
 }
