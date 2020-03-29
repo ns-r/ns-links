@@ -9,7 +9,7 @@
       <div>Last Updated on {{ readableDate }}</div>
       <div class="links">
         <a
-          :href="`https://github.com/themindstorm/ns-links/blob/master/content/${cat}/${slug}.md`"
+          :href="`https://github.com/ns-r/ns-links/blob/master/content/${cat}/${slug}.md`"
         >Edit this page on GitHub</a>
         <nuxt-link
           to="/site/improve/"

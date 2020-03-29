@@ -15,7 +15,7 @@
     footer.page-end
       .links
         a(href="https://www.reddit.com/user/themindstorm") Contribute
-        a(href="https://github.com/themindstorm/ns-linkswww.reddit.com/user/themindstorm") Source
+        a(href="https://github.com/ns-r/ns-links/") Source
 
 </template>
 
