@@ -11,8 +11,6 @@ lastUpdated: 2020-03-17
 ## Duration
 The CQB (close quarter battle) lasts 2 days, 1 night.
 
-## The activity
-Basic room clearing in a simulated urban environment. Camo cream is required.
 
 ## Tips
 - When it's time to sleep, lay out your ground sheet immediately to get more space. Remember that if you're too close to a wall or corner, there's a chance of seeing more bugs.
