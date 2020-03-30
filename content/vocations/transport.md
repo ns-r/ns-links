@@ -42,14 +42,7 @@ Transport apprentices (those who haven't gone for the dirivng course) pretty muc
 
 ## Transport Supervisor
 
-Before becoming a transport supervisor, there are a few training phases:
-1. Foundational term
-2. Basic and advanced driving course
-3. On-job training
-4. Ops phase
-5. Posted to SCS
-
-This lasts 9 months.
+Before becoming a transport supervisor, there's more training for around 9 months.
 
 ### Unit
 
