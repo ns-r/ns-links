@@ -48,7 +48,7 @@ Before becoming a transport supervisor, there's more training for around 9 month
 
 TSs don't drive much; they mostly manage details and logistics.
 
-
+<!--
 ## Pledge and rights
 ### TO pledge
 *I, as a Transport Operator of the Singapore Armed Forces*\
@@ -67,6 +67,7 @@ Four cardinal sins:
 3. Unauthorized driving
 4. Reversing without care
 
+
 ### TO rights
 - Do not move vehicle if you are tired or unwell.
 - Turn down in between details not in accordance to the authorised indent.
@@ -79,3 +80,4 @@ Four cardinal sins:
 - Communication on the move shall be maintained via the VC's handphone. The driver is not allowed to answer a phone call during the move.
 - Be briefed of the route before going off for a detail including if the route passes through ERP gantry.
 - To ask the VC to go down to ground guide while reversing or going through difficult or narrow terrain.
+-->
