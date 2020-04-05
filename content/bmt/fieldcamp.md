@@ -17,7 +17,7 @@ The fieldcamp is the longest, and worst event in BMT. It is a high-key event, so
 - **Always keep track of your RAI**: Don't lose them.
 - **Sleep with your boots on**: Take them off and poweder your feet, but remember to put them back on before sleeping.
 
-## Schedule
+<!-- ## Schedule
 *Your schedule likely won't be the exact same as this one*
 
 ### Day 1
@@ -42,7 +42,7 @@ The fieldcamp is the longest, and worst event in BMT. It is a high-key event, so
 - SIT test
 - Go back to coyline
 - Clean up eqipment
-- Book out!
+- Book out! -->
 
 <!-- ## Fire control order
 
