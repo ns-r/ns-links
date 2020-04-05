@@ -1,7 +1,7 @@
 ---
 title: Transport
 slug: transport
-lastUpdated: 2020-03-17
+lastUpdated: 2020-04-5
 description: All about the Transport Operator and Supervisor vocations
 
 credits:
@@ -29,10 +29,9 @@ NSFs get posted to a unit (**transport node**) after the UIP. Transport units gi
 
 
 ### Driving course
-The driving course works on a slot-by-slot basis. If there are slots open, you will be sent for the driving course. There is always time between when you get posted to your unit and when you get a slot for your driving course. If you're lucky, you'll get the driving course within a month of your being posted, but be prepared to wait. Note that having pending medical issues, medical appointments, temporary down PES may delay your entry to the driving course.
+<!-- The driving course works on a slot-by-slot basis. If there are slots open, you will be sent for the driving course. There is always time between when you get posted to your unit and when you get a slot for your driving course. If you're lucky, you'll get the driving course within a month of your being posted, but be prepared to wait. Note that having pending medical issues, medical appointments, temporary down PES may delay your entry to the driving course. -->
 
-The driving course is now **stay-in**, with nights out on Wednesdays (needs confirmation). You will sleep at Sembawang camp and go to either Kaki-bukit, Sembawang, or Kranji camp every day.
-
+The driving course is now **stay-in**, with nights out on Wednesdays (needs confirmation).
 
 ### Admin time
 
