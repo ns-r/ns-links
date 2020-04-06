@@ -11,7 +11,7 @@
     <div class="support page-end">
       <div>Last Updated on {{ readableDate }}</div>
       <div class="links">
-        <a
+        <a class='edit'
           :href="`https://github.com/ns-r/ns-links/blob/master/content/${cat}/${slug}.md`"
         >Edit this page on GitHub</a>
         <nuxt-link
@@ -124,6 +124,25 @@ export default {
     ul {
       @include links-list;
     }
+  }
+}
+
+.page-end {
+  // background-color: red;
+  font-size: 0.8em;
+
+  .links {
+
+    display: flex;
+    justify-content: space-between;
+
+    .edit {
+      margin-right: var(--main-padding);
+    }
+  }
+
+  a {
+    color: unset;
   }
 }
 
