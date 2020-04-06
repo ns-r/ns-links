@@ -40,3 +40,16 @@ credits:
 - **Your sergeants are real people too**: If they're shouting at you, remember that they've been trained to do so. They are most likely NSFs waiting to ORD too.
 - **DO NOT SIGN ON THE LINES**
 - **Bookout in the uniform you sweat in**: You'll get to wash them at home. *Do not try to bookout in a uniform that's sandy (after BIC) or too wet*.
+
+<div class="sources">
+
+## Sources
+
+- [SteamedChickenRice guide](https://www.reddit.com/r/singapore/comments/acp8bz/steamedchickenrice_guide_on_bmt/)
+- [Key tips](https://www.reddit.com/r/singapore/comments/2x9ecv/gold_key_tips_for_those_who_are_just_about_to/)
+- [Tips and tricks](https://www.reddit.com/r/NationalServiceSG/comments/eik1iy/tips_and_tricks_for_those_enlisting_to_saf/)
+- [Important items to bring](https://www.reddit.com/r/singapore/comments/8a8isp/important_items_to_bring_for_bmt/)
+- [Hacks](https://www.reddit.com/r/singapore/comments/abv9zl/hacks_for_bmt_during_ns_tekong/)
+- [Advice](https://www.quora.com/Do-you-have-any-advice-for-people-who-are-going-to-National-Service-in-Singapore)
+
+</div>

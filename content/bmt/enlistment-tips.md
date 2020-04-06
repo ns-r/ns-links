@@ -6,6 +6,7 @@ lastUpdated: 2020-03-29
 
 ## Tips
 - **Get a haircut before enlisting**: You likekly won't get time to shower after they give haircuts. Tekong haircuts aren't fun.
+- **Try to learn some Singaporean slang** if you don't know any: Start <nuxt-link to="/general/lingo">here</nuxt-link>.
 
 ## Packing guide
 - **Washing powder/liquid detergent**: in BMT, no washing machines provided.

@@ -3,7 +3,10 @@
     <BackButton to="/">guides</BackButton>
     <h1>{{ title }}</h1>
     <!-- <client-only> -->
-    <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
+    <div class="content">
+      <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
+    </div>
+    
     <!-- </client-only> -->
     <div class="support page-end">
       <div>Last Updated on {{ readableDate }}</div>
@@ -114,6 +117,15 @@ export default {
 
 <style lang="scss">
 @import "@/assets/styles/article.scss";
+@import '@/assets/mixins/links_list.scss';
+
+.content {
+  .sources {
+    ul {
+      @include links-list;
+    }
+  }
+}
 
 .support {
   margin-top: calc(2.5 * var(--heading-margin));

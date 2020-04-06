@@ -23,10 +23,15 @@ There's PT thrice a week, and an IPPT on the last week.
 
 The UIP is **stay-in**, without nights out. Marching is required.
 
+#### Tips
+- **Bring an extra battery pack**: You will get much more admin time than you do in BMT.
+
 ### Unit
 
 NSFs get posted to a unit (**transport node**) after the UIP. Transport units give **nights out** every Tuesday and Thursday. Once in unit, they will be put on the waitlist for the driving course.
 
+#### Tips
+- **Sound off if you're tired or sleepy before driving**
 
 ### Driving course
 <!-- The driving course works on a slot-by-slot basis. If there are slots open, you will be sent for the driving course. There is always time between when you get posted to your unit and when you get a slot for your driving course. If you're lucky, you'll get the driving course within a month of your being posted, but be prepared to wait. Note that having pending medical issues, medical appointments, temporary down PES may delay your entry to the driving course. -->
@@ -80,3 +85,13 @@ Four cardinal sins:
 - Be briefed of the route before going off for a detail including if the route passes through ERP gantry.
 - To ask the VC to go down to ground guide while reversing or going through difficult or narrow terrain.
 -->
+
+<div class="sources">
+
+## Sources
+
+- [TO](https://www.reddit.com/r/singapore/comments/e9ysdq/ns_transport_operator_vocation/)
+- [TOs in ICT](https://www.reddit.com/r/singapore/comments/ajxswd/what_do_transport_operators_do_during_ict/)
+- ["1 foot in DB"](https://www.reddit.com/r/NationalServiceSG/comments/ebvd4q/is_the_1_foot_on_the_accelerator_1_foot_in_db/)
+
+</div>
