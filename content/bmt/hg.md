@@ -24,4 +24,6 @@ Around 1 day. If you're luckly, you'll get to return to your coy-line before eve
 
 ## Video
 
-Note that this video was made in 2010, so it is currently {{ (new Date().getFullYear()) -2010 }} years old.
+<!-- Note that this video was made in 2010, so it is currently {{ (new Date().getFullYear()) -2010 }} years old. -->
+
+<YoutubeVideo id="CgT7Thc0_Ws" />

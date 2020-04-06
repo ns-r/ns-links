@@ -83,3 +83,17 @@ IC: IC on! (*No need to say cover me because enemy already down*)
 
 ## After fieldcamp
 Your BMT should get less stressful post fieldcamp. The only major events left are <nuxt-link to="/bmt/bic">BIC</nuxt-link>, 16K, and 24K, followed by POP!
+
+## Video
+
+### IFC (field discipline)
+
+<YoutubeVideo id="Qgbe0xbswGU" />
+
+### FCO (fire movement)
+
+<YoutubeVideo id="pDjsXkKSGbo" />
+
+### Tekan session
+
+<YoutubeVideo id="6rNTgRiNN3Q" />

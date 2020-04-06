@@ -6,6 +6,7 @@
         v-for="eachLink in this.siteConfig.links" v-bind:key="eachLink.url"
         :class="eachLink.class"
         :href="eachLink.url"
+        target="_blank"
       ) {{ eachLink.name }}
 
 </template>

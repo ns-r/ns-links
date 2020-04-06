@@ -7,6 +7,9 @@ slug: lingo
 <Alert :incomplete="true" />
 
 ## Abbreviations
+BMTC
+  ~ Basic Military Training (Center).
+
 SBA
   ~ Stand by area; bunk inspection.
 
@@ -24,6 +27,9 @@ SOC
 
 SAR 21
   ~ Singapore Assault Rifle, 21st century; your one-night stand.
+
+CQB
+  ~ Close quarter combat (Urban operation).
 
 POP
   ~ Passing Out Parade; the parade that marks the end of your basic military training.
@@ -48,10 +54,10 @@ Bobo
   ~ The recruit who cannot aim (you'll hear this term at the range).
 
 Wayang
-  ~ (help)
+  ~ When someone (NSF or regular) acts differently when higher-ranking specs or officers are around.
   
 Saikang
-  ~ (help)
+  ~ Menial tasks (raking leaves, washing vehicles, entering mileage data, etc.)
   
 Rabak
   ~ (help)
@@ -61,8 +67,11 @@ Rabak
 Drop
   ~ Go in the pushup position.
 
+Force prep
+  ~ Forced preperation.
+
 Turnout
-  ~ (help)
+  ~ When you're woken up in the middle of the night for force prep and/or training to test your effectiveness.
 
 ## Phrases
 

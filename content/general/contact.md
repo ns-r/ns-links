@@ -8,7 +8,7 @@ credits:
 ---
 
 ## Safety hotline (9-SAFETY-1)
-*Need to confirm phone number*
+*9SAFETY1*
 
 ## CMPB
 - Hotline (25hr): 1800-367-6767 (1800-eNSNSNS)
