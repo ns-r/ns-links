@@ -40,15 +40,18 @@ SCS
 OCS
   ~ Officer cadet school
 
+SOL
+  ~ Stoppage of leave. A punishment in which a serviceman is not allowed to leave the camp for a certain number of days.
+
 ## Words
 
 ### Non-English words
 
 Kenna
-  ~ To be subject to harsh or painful treatment.
+  ~ To be subject to harsh or painful treatment. Eg. He kenna SOL.
 
 Semula
-  ~ (A command) Redo what you last did
+  ~ (A command) Undo what you last did.
 
 Bobo
   ~ The recruit who cannot aim (you'll hear this term at the range).
@@ -64,7 +67,16 @@ Rabak
   
 ### English words
 
-Drop
+Coy
+  ~ (Company) A large group (of 240-50 people, and split into 4 platoons in BMT)
+
+Platoon
+  ~ A smaller group (usually 60 in BMT). One platoon usually occupies one floor.
+
+Section
+  ~ The smallest group in a company (16 in BMT). One section usually occupies one bunk room.
+
+Drop / Knock it down
   ~ Go in the pushup position.
 
 Force prep

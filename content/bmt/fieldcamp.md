@@ -12,10 +12,17 @@ The fieldcamp is the longest, and worst event in BMT. It is a high-key event, so
 ## Duration
 5 days, 4 nights; SIT teset on day 5.
 
-## Tips
+## General tips
 - **Defecate one time good one before moving out**: You'll have to defecate in a hole otherwise.
 - **Always keep track of your RAI**: Don't lose them.
 - **Sleep with your boots on**: Take them off and poweder your feet, but remember to put them back on before sleeping.
+
+## Sleeping
+- **Sling your rifle through your belt holes**: You will definitely wake up if your sergeant tries to steal it.
+- **Use your gortex or ammo pouch as a pillow**
+- **Spray the area with your insect repellent before sleeping**: Especially when you sleep in your shellscrape.
+- **Close your bags before sleeping**: Insects WILL enter your bag otherwise.
+
 
 <!-- ## Schedule
 *Your schedule likely won't be the exact same as this one*

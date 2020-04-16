@@ -21,6 +21,7 @@ lastUpdated: 2020-03-29
 - **Wet wipes/wet tissues** (for area cleaning and boots polishing)
 - **Nail cutter**
 - **Dark colored spectacles**
+- **Black watch**: Only bring your watch if it's a dark color. No white watches.
 
 ## Things to buy at eMarts
 
@@ -28,6 +29,6 @@ These can be bought after confinement or whenever you need them:
 
 - **Garters**: it's always good to keep an extra pair
 - **Black tape**
-- **Ziploc bags**
+- **Ziploc bags**: Required for field pack.
 - **Dry-fit admin shirt**
 - **Insect repellent** 
