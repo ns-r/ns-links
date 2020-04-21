@@ -15,7 +15,7 @@ credits:
 All NSFs who get posted to transport will first attend the 3-week **UIP**, after which they will get posted to a **transport node**, where they will spend the rest of their NS life.
 
 
-### UIP (unit induction program)
+### UIP
 
 Certain training is done (removed to ensure no confidential information is leaked).
 
