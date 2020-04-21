@@ -9,6 +9,7 @@
 ![Made with Nuxt](https://img.shields.io/badge/Made%20With-Nuxt-008c78?style=flat-square)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![GitHub](https://img.shields.io/github/license/ns-r/ns-links?style=flat-square)
+[![HitCount](http://hits.dwyl.com/ns-r/ns-links.svg)](http://hits.dwyl.com/ns-r/ns-links)
 
 <p align="center">Links and resources to help people serving National Service in Singapore.</p>
 
