@@ -23,3 +23,19 @@ credits:
 
 - Most personnel work from 0800hrs to 1730hrs
 - Only larger depots have canteens, smaller depots consume meals as out-rations
+
+### Courses and progression
+Names have been "blurred".
+
+#### Forklift course
+
+NSFs receive SAF Military Driving License and Singapore Workforce Skill Qualification Forklift Operator certificate on completion of the course.
+
+#### "Fireball" course
+
+- 6-week stay-out course
+- Marching not required
+
+#### Ammo SCS
+
+- Specialist Cadet Graduation with 3SG rank

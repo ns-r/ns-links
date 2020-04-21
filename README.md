@@ -6,9 +6,11 @@
   <a href="https://national-service.now.sh/">NS Resources</a>
 </h1>
 
-<p align="center"><i>
-Links and resources to help people serving National Service in Singapore.
-</i></p>
+![Made with Nuxt](https://img.shields.io/badge/Made%20With-Nuxt-008c78?style=flat-square)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![GitHub](https://img.shields.io/github/license/ns-r/ns-links?style=flat-square)
+
+<p align="center">Links and resources to help people serving National Service in Singapore.</p>
 
 ## :fireworks: Gallery (WIP)
 ![desktop view](./readme-images/main.png)
