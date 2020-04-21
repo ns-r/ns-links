@@ -49,6 +49,9 @@ These websites are usually under maintenance on weekends.
 - [TOs in ICT](https://www.reddit.com/r/singapore/comments/ajxswd/what_do_transport_operators_do_during_ict/)
 - ["1 foot in DB"](https://www.reddit.com/r/NationalServiceSG/comments/ebvd4q/is_the_1_foot_on_the_accelerator_1_foot_in_db/)
 
+### Supply
+- [Ammo](http://www.defense-aerospace.com/articles-view/release/3/69269/s%27pore-opens-integrated-ammo-command-(may-31).html)
+
 ### Commando
 - [Training](https://www.quora.com/What-SSG-commandos-training-include)
 
