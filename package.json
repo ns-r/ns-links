@@ -12,22 +12,22 @@
   },
   "dependencies": {
     "@nuxtjs/redirect-module": "^0.3.1",
-    "@nuxtjs/sitemap": "^2.1.0",
-    "@vue/component-compiler-utils": "^3.1.1",
-    "frontmatter-markdown-loader": "^3.2.1",
+    "@nuxtjs/sitemap": "^2.2.0",
+    "@vue/component-compiler-utils": "^3.1.2",
+    "frontmatter-markdown-loader": "^3.3.0",
     "js-yaml-loader": "^1.2.2",
     "markdown-it": "^10.0.0",
-    "markdown-it-anchor": "^5.2.5",
+    "markdown-it-anchor": "^5.2.7",
     "markdown-it-deflist": "^2.0.3",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.12.2",
     "vue-template-compiler": "^2.6.11",
-    "yaml": "^1.8.2"
+    "yaml": "^1.9.2"
   },
   "devDependencies": {
     "@nuxtjs/google-analytics": "^2.2.3",
     "@nuxtjs/style-resources": "^1.0.0",
     "node-sass": "^4.13.1",
-    "pug": "^2.0.3",
+    "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^8.0.2"
   }

@@ -4,7 +4,7 @@ slug: bmt-tips
 lastUpdated: 2020-03-29
 
 credits:
-  - u/SteamedChickenRuse
+  - u/SteamedChickenRise
 ---
 
 ## Training tips

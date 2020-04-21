@@ -33,10 +33,6 @@ export const mutations = {
         state.headings.push(currentHeading)
       }
     }
-    // state.headings = ['h', 'h2', 'h3']
-
-    // console.log("Headings has been set to:")
-    // console.log(state.headings)
   },
 
   disableToc(state) {

@@ -6,6 +6,13 @@
     <div class="content">
       <DynamicMarkdown :render-func="renderFunc" :static-render-funcs="staticRenderFuncs" />
     </div>
+
+    <div class="credits">
+      <h2>Credits</h2>
+      <ul>
+        <li v-for="name in credits"> {{ name }}</li>
+      </ul>
+    </div>
     
     <!-- </client-only> -->
     <div class="support page-end">
@@ -103,6 +110,7 @@ export default {
       lastUpdated: markdownFileContent.attributes.lastUpdated,
       description: markdownFileContent.attributes.description,
       body: markdownFileContent.body,
+      credits: markdownFileContent.attributes.credits,
       footerLinks: footerLinks,
 
       renderFunc: `(${markdownFileContent.vue.render})`,
