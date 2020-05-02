@@ -6,6 +6,8 @@
           v-for="link in this.links" v-bind:key="link.slug"
           :to="'/'+catSlug+'/'+link.slug+'/'"
         ) {{ link.title }}
+    .contribute 
+      a(href="https://docs.google.com/forms/d/e/1FAIpQLSeIqWZHWuUizLuQqiIytc5YI67tGedYa82dNw86Knf9bZXFpQ/viewform?usp=sf_link") Click here to add content
 </template>
 
 <script>
@@ -28,10 +30,12 @@ footer {
   @import "~/assets/styles/list.scss";
   @import "~/assets/mixins/a.scss";
 
-  .button-list {
+  .contribute {
+    a {
+      @include reset-a;
+      
+    }
+    margin-top: var(--main-padding);
   }
-  // *:last-child {
-  //   margin-bottom: 0;
-  // }
 }
 </style>

@@ -18,12 +18,15 @@
     <div class="support page-end">
       <div>Last Updated on {{ readableDate }}</div>
       <div class="links">
-        <a class='edit'
+        <a class='edit' href="https://docs.google.com/forms/d/e/1FAIpQLSeIqWZHWuUizLuQqiIytc5YI67tGedYa82dNw86Knf9bZXFpQ/viewform?usp=sf_link">
+          Add or update content
+          </a>
+        <!-- <a class='edit'
           :href="`https://github.com/ns-r/ns-links/blob/master/content/${cat}/${slug}.md`"
         >Edit this page on GitHub</a>
         <nuxt-link
           to="/site/improve/"
-        >How to help improve this page</nuxt-link>
+        >How to help improve this page</nuxt-link>-->
       </div>
     </div>
 
