@@ -1,3 +1,7 @@
+# NSR has been moved to [ninest/nsr](https://github.com/ninest/nsr)
+
+## This repository will be archived soon
+
 <p align="center">
   <img align="center" width="300" src="./assets/svg/sar21.svg">
 </p>

@@ -8,7 +8,7 @@ credits:
 ---
 
 ## Safety hotline (9-SAFETY-1)
-*9SAFETY1*
+9723 3891
 
 ## CMPB
 - Hotline (25hr): 1800-367-6767 (1800-eNSNSNS)

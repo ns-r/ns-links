@@ -17,7 +17,7 @@ This guide will explain the basics of financial planning and literacy.
 
 ## 1. Calculating and Optimising Your Expenses
 
-First things first, what you need to do is to calculate and total up the amount of money you spend in a month. Everything from your telco bills, down to your bubble tea addiction. This shall be your ‘Fat Expense’.
+First things first, what you need to do is to calculate and total up the amount of money you spend in a month. Everything from your srctelco bills, down to your bubble tea addiction. This shall be your ‘Fat Expense’.
 
 Now, obviously, there will be a ton of stuff that you usually spend your money on that during your NS, you probably won’t be spending much on, if at all. So, things like transport (especially for those Grab addicts out there), food, and even things like computer games/IAP will be scaled down naturally without any effort from you. (MINDEF will help out in that department.) So, with that in mind, amend your ‘Fat Expense’ accordingly. This shall be your ‘Lean Expense’.
 
